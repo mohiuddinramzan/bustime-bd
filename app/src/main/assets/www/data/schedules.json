@@ -451,6 +451,798 @@
         "source": "user-provided"
       },
       "updatedAt": "2026-10-22T05:21:10.609Z"
+    },
+    {
+      "id": "sch-fb-001",
+      "busId": "bus-fb-chamber-01",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "05:00",
+      "counterId": "counter-fb-chamber-01-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-002",
+      "busId": "bus-fb-chamber-01",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "15:15",
+      "counterId": "counter-fb-chamber-01-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-003",
+      "busId": "bus-fb-chamber-02",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "00:30",
+      "counterId": "counter-fb-chamber-02-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-004",
+      "busId": "bus-fb-chamber-02",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "14:00",
+      "counterId": "counter-fb-chamber-02-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-005",
+      "busId": "bus-fb-brtc-ac",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "00:30",
+      "counterId": "counter-fb-brtc-ac-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-006",
+      "busId": "bus-fb-brtc-ac",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "15:30",
+      "counterId": "counter-fb-brtc-ac-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-007",
+      "busId": "bus-fb-sa-travels",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "06:05",
+      "counterId": "counter-fb-sa-travels-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-008",
+      "busId": "bus-fb-sa-travels",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "13:35",
+      "counterId": "counter-fb-sa-travels-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-009",
+      "busId": "bus-fb-sadika-1",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "13:35",
+      "counterId": "counter-fb-sadika-1-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-010",
+      "busId": "bus-fb-sadika-1",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "07:00",
+      "counterId": "counter-fb-sadika-1-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-011",
+      "busId": "bus-fb-sadika-2",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "13:35",
+      "counterId": "counter-fb-sadika-2-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-012",
+      "busId": "bus-fb-sadika-2",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "23:30",
+      "counterId": "counter-fb-sadika-2-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-013",
+      "busId": "bus-fb-ac-super",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "00:30",
+      "counterId": "counter-fb-ac-super-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-014",
+      "busId": "bus-fb-ac-super",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "13:10",
+      "counterId": "counter-fb-ac-super-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-015",
+      "busId": "bus-fb-ac-deluxe",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "06:00",
+      "counterId": "counter-fb-ac-deluxe-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-016",
+      "busId": "bus-fb-ac-deluxe",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "14:30",
+      "counterId": "counter-fb-ac-deluxe-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-017",
+      "busId": "bus-fb-collectorate",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "05:30",
+      "counterId": "counter-fb-collectorate-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-018",
+      "busId": "bus-fb-collectorate",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "15:45",
+      "counterId": "counter-fb-collectorate-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-019",
+      "busId": "bus-fb-tennis-night-day",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "00:45",
+      "counterId": "counter-fb-tennis-night-day-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-020",
+      "busId": "bus-fb-tennis-night-day",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "13:00",
+      "counterId": "counter-fb-tennis-night-day-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-021",
+      "busId": "bus-fb-supreme-night",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "00:00",
+      "counterId": "counter-fb-supreme-night-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-022",
+      "busId": "bus-fb-supreme-night",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "08:00",
+      "counterId": "counter-fb-supreme-night-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-023",
+      "busId": "bus-fb-moon-raj",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "00:30",
+      "counterId": "counter-fb-moon-raj-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-024",
+      "busId": "bus-fb-moon-raj",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "12:20",
+      "counterId": "counter-fb-moon-raj-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-025",
+      "busId": "bus-fb-moon-raj",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "13:00",
+      "counterId": "counter-fb-moon-raj-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-026",
+      "busId": "bus-fb-monimukta-1",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "04:40",
+      "counterId": "counter-fb-monimukta-1-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-027",
+      "busId": "bus-fb-monimukta-1",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "12:15",
+      "counterId": "counter-fb-monimukta-1-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-028",
+      "busId": "bus-fb-women-chamber",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "00:45",
+      "counterId": "counter-fb-women-chamber-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-029",
+      "busId": "bus-fb-women-chamber",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "12:05",
+      "counterId": "counter-fb-women-chamber-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-030",
+      "busId": "bus-fb-krira-sangstha",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "return",
+      "departureTime": "05:10",
+      "counterId": "counter-fb-krira-sangstha-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-031",
+      "busId": "bus-fb-krira-sangstha",
+      "routeId": "route-fb-sherpur-dhaka",
+      "direction": "outbound",
+      "departureTime": "16:30",
+      "counterId": "counter-fb-krira-sangstha-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-032",
+      "busId": "bus-fb-brtc-gazirkhamar",
+      "routeId": "route-fb-gazirkhamar-dhaka",
+      "direction": "return",
+      "departureTime": "21:30",
+      "counterId": "counter-fb-brtc-gazirkhamar-a",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-fb-033",
+      "busId": "bus-fb-brtc-gazirkhamar",
+      "routeId": "route-fb-gazirkhamar-dhaka",
+      "direction": "outbound",
+      "departureTime": "07:00",
+      "counterId": "counter-fb-brtc-gazirkhamar-b",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
     }
   ]
 }

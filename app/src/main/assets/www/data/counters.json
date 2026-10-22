@@ -155,6 +155,669 @@
         "source": "user-provided"
       },
       "updatedAt": "2026-10-22T05:21:10.609Z"
+    },
+    {
+      "id": "counter-fb-chamber-01-a",
+      "name_bn": "শেরপুর কাউন্টার – শেরপুর চেম্বার অফ কমার্স এন্ড ইন্ডাস্ট্রি-০১",
+      "name_en": "Sherpur counter – Sherpur Chamber of Commerce & Industry-01",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর নিউমার্কেট",
+      "address_en": "Sherpur New Market",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-chamber-01-b",
+      "name_bn": "ঢাকা কাউন্টার – শেরপুর চেম্বার অফ কমার্স এন্ড ইন্ডাস্ট্রি-০১",
+      "name_en": "Dhaka counter – Sherpur Chamber of Commerce & Industry-01",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা গুলিস্তান স্টেডিয়াম",
+      "address_en": "Dhaka Gulistan Stadium",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-chamber-02-a",
+      "name_bn": "শেরপুর কাউন্টার – শেরপুর চেম্বার অফ কমার্স এন্ড ইন্ডাস্ট্রি-০২",
+      "name_en": "Sherpur counter – Sherpur Chamber of Commerce & Industry-02",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর বুকিং",
+      "address_en": "Sherpur booking",
+      "phones": [
+        {
+          "label": "booking",
+          "number": "01778558835",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-chamber-02-b",
+      "name_bn": "ঢাকা কাউন্টার – শেরপুর চেম্বার অফ কমার্স এন্ড ইন্ডাস্ট্রি-০২",
+      "name_en": "Dhaka counter – Sherpur Chamber of Commerce & Industry-02",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা বুকিং, গুলিস্তান স্টেডিয়াম মার্কেট",
+      "address_en": "Dhaka booking, Gulistan Stadium Market",
+      "phones": [
+        {
+          "label": "supervisor",
+          "number": "01778558890",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-brtc-ac-a",
+      "name_bn": "শেরপুর কাউন্টার – বিআরটিসি এসি",
+      "name_en": "Sherpur counter – BRTC AC",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর খড়মপুর মোড়",
+      "address_en": "Sherpur Kharampur Mor",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-brtc-ac-b",
+      "name_bn": "ঢাকা কাউন্টার – বিআরটিসি এসি",
+      "name_en": "Dhaka counter – BRTC AC",
+      "placeId": "dhaka",
+      "address_bn": "মতিঝিল বিআরটিসি বাস ডিপো",
+      "address_en": "Motijheel BRTC Bus Depot",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-sa-travels-a",
+      "name_bn": "শেরপুর কাউন্টার – এস.এ.ট্রাভেলস্",
+      "name_en": "Sherpur counter – S.A. Travels",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর থানা মোড়",
+      "address_en": "Sherpur Thana Mor",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01724454357",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-sa-travels-b",
+      "name_bn": "ঢাকা কাউন্টার – এস.এ.ট্রাভেলস্",
+      "name_en": "Dhaka counter – S.A. Travels",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা মহাখালী",
+      "address_en": "Dhaka Mohakhali",
+      "phones": [
+        {
+          "label": "supervisor",
+          "number": "01724191118",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-sadika-1-a",
+      "name_bn": "শেরপুর কাউন্টার – সাদিকা ১",
+      "name_en": "Sherpur counter – Sadika 1",
+      "placeId": "sherpur",
+      "address_bn": "নবীনগর বাস টার্মিনাল (পোস্টে যেমন লেখা)",
+      "address_en": "Nabinagar Bus Terminal (as written in the post)",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-sadika-1-b",
+      "name_bn": "ঢাকা কাউন্টার – সাদিকা ১",
+      "name_en": "Dhaka counter – Sadika 1",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "Dhaka",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-sadika-2-a",
+      "name_bn": "শেরপুর কাউন্টার – সাদিকা ২",
+      "name_en": "Sherpur counter – Sadika 2",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর সোনার বাংলা কাউন্টার",
+      "address_en": "Sherpur Sonar Bangla Counter",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-sadika-2-b",
+      "name_bn": "ঢাকা কাউন্টার – সাদিকা ২",
+      "name_en": "Dhaka counter – Sadika 2",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "Dhaka",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-ac-super-a",
+      "name_bn": "শেরপুর কাউন্টার – এসি সুপার",
+      "name_en": "Sherpur counter – AC Super",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর নিউ মার্কেট মোড়",
+      "address_en": "Sherpur New Market Mor",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01729592294",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-ac-super-b",
+      "name_bn": "ঢাকা কাউন্টার – এসি সুপার",
+      "name_en": "Dhaka counter – AC Super",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা মহাখালী",
+      "address_en": "Dhaka Mohakhali",
+      "phones": [
+        {
+          "label": "supervisor",
+          "number": "01735621796",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-ac-deluxe-a",
+      "name_bn": "শেরপুর কাউন্টার – এসি ডিলাক্স",
+      "name_en": "Sherpur counter – AC Deluxe",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর নিউ মার্কেট মোড়",
+      "address_en": "Sherpur New Market Mor",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01729592294",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-ac-deluxe-b",
+      "name_bn": "ঢাকা কাউন্টার – এসি ডিলাক্স",
+      "name_en": "Dhaka counter – AC Deluxe",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা মহাখালী",
+      "address_en": "Dhaka Mohakhali",
+      "phones": [
+        {
+          "label": "supervisor",
+          "number": "01734190665",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-collectorate-a",
+      "name_bn": "শেরপুর কাউন্টার – কালেক্টরেট কর্মচারী কল্যাণ সমিতি",
+      "name_en": "Sherpur counter – Collectorate Employees Welfare Association",
+      "placeId": "sherpur",
+      "address_bn": "যমুনা মটর, নিউ মার্কেট ২য় গেইট, শেরপুর",
+      "address_en": "Jamuna Motor, New Market 2nd Gate, Sherpur",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01755418143",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-collectorate-b",
+      "name_bn": "ঢাকা কাউন্টার – কালেক্টরেট কর্মচারী কল্যাণ সমিতি",
+      "name_en": "Dhaka counter – Collectorate Employees Welfare Association",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা স্টেডিয়াম",
+      "address_en": "Dhaka Stadium",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-tennis-night-day-a",
+      "name_bn": "শেরপুর কাউন্টার – শেরপুর টেনিস ক্লাব নাইট-ডে কোচ",
+      "name_en": "Sherpur counter – Sherpur Tennis Club Night-Day Coach",
+      "placeId": "sherpur",
+      "address_bn": "সম্পদ প্লাজা সংলগ্ন গ্রামীনফোন কাস্টমার কেয়ার, রঘুনাথ বাজার, শেরপুর",
+      "address_en": "Next to Sampad Plaza Grameenphone Customer Care, Raghunath Bazar, Sherpur",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01761797977",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-tennis-night-day-b",
+      "name_bn": "ঢাকা কাউন্টার – শেরপুর টেনিস ক্লাব নাইট-ডে কোচ",
+      "name_en": "Dhaka counter – Sherpur Tennis Club Night-Day Coach",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা বঙ্গবন্ধু স্টেডিয়াম মার্কেট, ২ নম্বর গেট",
+      "address_en": "Dhaka Bangabandhu Stadium Market, Gate 2",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-supreme-night-a",
+      "name_bn": "শেরপুর কাউন্টার – সুপ্রীম নাইট কোচ সার্ভিস",
+      "name_en": "Sherpur counter – Supreme Night Coach Service",
+      "placeId": "sherpur",
+      "address_bn": "নিউমার্কেট চেম্বার কাউন্টার, শেরপুর",
+      "address_en": "New Market Chamber Counter, Sherpur",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01716486467",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-supreme-night-b",
+      "name_bn": "ঢাকা কাউন্টার – সুপ্রীম নাইট কোচ সার্ভিস",
+      "name_en": "Dhaka counter – Supreme Night Coach Service",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা স্টেডিয়াম",
+      "address_en": "Dhaka Stadium",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-moon-raj-a",
+      "name_bn": "শেরপুর কাউন্টার – মুন-রাজ",
+      "name_en": "Sherpur counter – Moon-Raj",
+      "placeId": "sherpur",
+      "address_bn": "যমুনা মটর, নিউ মার্কেট ২য় গেইট, শেরপুর",
+      "address_en": "Jamuna Motor, New Market 2nd Gate, Sherpur",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01755418143",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-moon-raj-b",
+      "name_bn": "ঢাকা কাউন্টার – মুন-রাজ",
+      "name_en": "Dhaka counter – Moon-Raj",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা মহাখালী",
+      "address_en": "Dhaka Mohakhali",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-monimukta-1-a",
+      "name_bn": "শেরপুর কাউন্টার – মনিমুক্তা-১",
+      "name_en": "Sherpur counter – Monimukta-1",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর নিউ মার্কেট",
+      "address_en": "Sherpur New Market",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01725371819",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-monimukta-1-b",
+      "name_bn": "ঢাকা কাউন্টার – মনিমুক্তা-১",
+      "name_en": "Dhaka counter – Monimukta-1",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা মহাখালী",
+      "address_en": "Dhaka Mohakhali",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-women-chamber-a",
+      "name_bn": "শেরপুর কাউন্টার – শেরপুর উইমেন চেম্বার অফ কমার্স ইন্ডাস্ট্রি",
+      "name_en": "Sherpur counter – Sherpur Women Chamber of Commerce & Industry",
+      "placeId": "sherpur",
+      "address_bn": "মুক্তিযোদ্ধা সংসদ অফিস, টাউন হল, শেরপুর",
+      "address_en": "Freedom Fighters Council Office, Town Hall, Sherpur",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01300823516",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-women-chamber-b",
+      "name_bn": "ঢাকা কাউন্টার – শেরপুর উইমেন চেম্বার অফ কমার্স ইন্ডাস্ট্রি",
+      "name_en": "Dhaka counter – Sherpur Women Chamber of Commerce & Industry",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা স্টেডিয়াম মার্কেট",
+      "address_en": "Dhaka Stadium Market",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01300823515",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-krira-sangstha-a",
+      "name_bn": "শেরপুর কাউন্টার – শেরপুর জেলা ক্রীড়া সংস্থা (এসি)",
+      "name_en": "Sherpur counter – Sherpur District Sports Association (AC)",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর টেনিস ক্লাব বাসের কাউন্টার",
+      "address_en": "Sherpur Tennis Club bus counter",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01761797977",
+          "demo": false
+        },
+        {
+          "label": "counter",
+          "number": "01313970128",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-krira-sangstha-b",
+      "name_bn": "ঢাকা কাউন্টার – শেরপুর জেলা ক্রীড়া সংস্থা (এসি)",
+      "name_en": "Dhaka counter – Sherpur District Sports Association (AC)",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা বঙ্গবন্ধু স্টেডিয়াম, ৪ নম্বর গেইট",
+      "address_en": "Dhaka Bangabandhu Stadium, Gate 4",
+      "phones": [
+        {
+          "label": "supervisor",
+          "number": "01313970129",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-brtc-gazirkhamar-a",
+      "name_bn": "শেরপুর কাউন্টার – বিআরটিসি (গাজীরখামার–ঢাকা)",
+      "name_en": "Sherpur counter – BRTC (Gazirkhamar–Dhaka)",
+      "placeId": "gazirkhamar",
+      "address_bn": "বাদশা মিয়ার চা দোকান, শেখহাটি বাজার, শেরপুর সদর (অগ্রিম টিকিট)",
+      "address_en": "Badsha Mia tea stall, Shekhhati Bazar, Sherpur Sadar (advance tickets)",
+      "phones": [
+        {
+          "label": "booking",
+          "number": "01727027915",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-brtc-gazirkhamar-b",
+      "name_bn": "ঢাকা কাউন্টার – বিআরটিসি (গাজীরখামার–ঢাকা)",
+      "name_en": "Dhaka counter – BRTC (Gazirkhamar–Dhaka)",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা (মহাখালী)",
+      "address_en": "Dhaka (Mohakhali)",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-sonar-bangla-a",
+      "name_bn": "শেরপুর কাউন্টার – সোনার বাংলা (নন-এসি গেইট লক সার্ভিস)",
+      "name_en": "Sherpur counter – Sonar Bangla (Non-AC Gate Lock Service)",
+      "placeId": "sherpur",
+      "address_bn": "মীরগঞ্জ বাসস্ট্যান্ড, শেরপুর (প্রতি ৪০ মিনিট পরপর)",
+      "address_en": "Mirganj Bus Stand, Sherpur (every 40 minutes)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01771550020",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-sonar-bangla-b",
+      "name_bn": "ঢাকা কাউন্টার – সোনার বাংলা (নন-এসি গেইট লক সার্ভিস)",
+      "name_en": "Dhaka counter – Sonar Bangla (Non-AC Gate Lock Service)",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা মহাখালী (প্রতি ৪০ মিনিট পরপর)",
+      "address_en": "Dhaka Mohakhali (every 40 minutes)",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
     }
   ]
 }

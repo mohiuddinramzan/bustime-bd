@@ -160,6 +160,451 @@
         "source": "user-provided"
       },
       "updatedAt": "2026-10-22T05:21:10.609Z"
+    },
+    {
+      "id": "bus-fb-chamber-01",
+      "name_bn": "শেরপুর চেম্বার অফ কমার্স এন্ড ইন্ডাস্ট্রি-০১",
+      "name_en": "Sherpur Chamber of Commerce & Industry-01",
+      "operator_bn": "শেরপুর চেম্বার অফ কমার্স এন্ড ইন্ডাস্ট্রি-০১",
+      "operator_en": "Sherpur Chamber of Commerce & Industry-01",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-fb-chamber-01-a",
+        "counter-fb-chamber-01-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01715814725",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-chamber-02",
+      "name_bn": "শেরপুর চেম্বার অফ কমার্স এন্ড ইন্ডাস্ট্রি-০২",
+      "name_en": "Sherpur Chamber of Commerce & Industry-02",
+      "operator_bn": "শেরপুর চেম্বার অফ কমার্স এন্ড ইন্ডাস্ট্রি-০২",
+      "operator_en": "Sherpur Chamber of Commerce & Industry-02",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-fb-chamber-02-a",
+        "counter-fb-chamber-02-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01778558890",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-brtc-ac",
+      "name_bn": "বিআরটিসি এসি",
+      "name_en": "BRTC AC",
+      "operator_bn": "বিআরটিসি এসি",
+      "operator_en": "BRTC AC",
+      "type": "AC",
+      "counterIds": [
+        "counter-fb-brtc-ac-a",
+        "counter-fb-brtc-ac-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01758836943",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-sa-travels",
+      "name_bn": "এস.এ.ট্রাভেলস্",
+      "name_en": "S.A. Travels",
+      "operator_bn": "এস.এ.ট্রাভেলস্",
+      "operator_en": "S.A. Travels",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-fb-sa-travels-a",
+        "counter-fb-sa-travels-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01724191118",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-sadika-1",
+      "name_bn": "সাদিকা ১",
+      "name_en": "Sadika 1",
+      "operator_bn": "সাদিকা ১",
+      "operator_en": "Sadika 1",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-fb-sadika-1-a",
+        "counter-fb-sadika-1-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01712119181",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-sadika-2",
+      "name_bn": "সাদিকা ২",
+      "name_en": "Sadika 2",
+      "operator_bn": "সাদিকা ২",
+      "operator_en": "Sadika 2",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-fb-sadika-2-a",
+        "counter-fb-sadika-2-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01736990161",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-ac-super",
+      "name_bn": "এসি সুপার",
+      "name_en": "AC Super",
+      "operator_bn": "এসি সুপার",
+      "operator_en": "AC Super",
+      "type": "AC",
+      "counterIds": [
+        "counter-fb-ac-super-a",
+        "counter-fb-ac-super-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01735621796",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-ac-deluxe",
+      "name_bn": "এসি ডিলাক্স",
+      "name_en": "AC Deluxe",
+      "operator_bn": "এসি ডিলাক্স",
+      "operator_en": "AC Deluxe",
+      "type": "AC",
+      "counterIds": [
+        "counter-fb-ac-deluxe-a",
+        "counter-fb-ac-deluxe-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01734190665",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-collectorate",
+      "name_bn": "কালেক্টরেট কর্মচারী কল্যাণ সমিতি",
+      "name_en": "Collectorate Employees Welfare Association",
+      "operator_bn": "কালেক্টরেট কর্মচারী কল্যাণ সমিতি",
+      "operator_en": "Collectorate Employees Welfare Association",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-fb-collectorate-a",
+        "counter-fb-collectorate-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01729142831",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-tennis-night-day",
+      "name_bn": "শেরপুর টেনিস ক্লাব নাইট-ডে কোচ",
+      "name_en": "Sherpur Tennis Club Night-Day Coach",
+      "operator_bn": "শেরপুর টেনিস ক্লাব নাইট-ডে কোচ",
+      "operator_en": "Sherpur Tennis Club Night-Day Coach",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-fb-tennis-night-day-a",
+        "counter-fb-tennis-night-day-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01770774774",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-supreme-night",
+      "name_bn": "সুপ্রীম নাইট কোচ সার্ভিস",
+      "name_en": "Supreme Night Coach Service",
+      "operator_bn": "সুপ্রীম নাইট কোচ সার্ভিস",
+      "operator_en": "Supreme Night Coach Service",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-fb-supreme-night-a",
+        "counter-fb-supreme-night-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01775413541",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-moon-raj",
+      "name_bn": "মুন-রাজ",
+      "name_en": "Moon-Raj",
+      "operator_bn": "মুন-রাজ",
+      "operator_en": "Moon-Raj",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-fb-moon-raj-a",
+        "counter-fb-moon-raj-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01755418142",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-monimukta-1",
+      "name_bn": "মনিমুক্তা-১",
+      "name_en": "Monimukta-1",
+      "operator_bn": "মনিমুক্তা-১",
+      "operator_en": "Monimukta-1",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-fb-monimukta-1-a",
+        "counter-fb-monimukta-1-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01916595151",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-women-chamber",
+      "name_bn": "শেরপুর উইমেন চেম্বার অফ কমার্স ইন্ডাস্ট্রি",
+      "name_en": "Sherpur Women Chamber of Commerce & Industry",
+      "operator_bn": "শেরপুর উইমেন চেম্বার অফ কমার্স ইন্ডাস্ট্রি",
+      "operator_en": "Sherpur Women Chamber of Commerce & Industry",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-fb-women-chamber-a",
+        "counter-fb-women-chamber-b"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-krira-sangstha",
+      "name_bn": "শেরপুর জেলা ক্রীড়া সংস্থা (এসি)",
+      "name_en": "Sherpur District Sports Association (AC)",
+      "operator_bn": "শেরপুর জেলা ক্রীড়া সংস্থা (এসি)",
+      "operator_en": "Sherpur District Sports Association (AC)",
+      "type": "AC",
+      "counterIds": [
+        "counter-fb-krira-sangstha-a",
+        "counter-fb-krira-sangstha-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01313970129",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-brtc-gazirkhamar",
+      "name_bn": "বিআরটিসি (গাজীরখামার–ঢাকা)",
+      "name_en": "BRTC (Gazirkhamar–Dhaka)",
+      "operator_bn": "বিআরটিসি (গাজীরখামার–ঢাকা)",
+      "operator_en": "BRTC (Gazirkhamar–Dhaka)",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-fb-brtc-gazirkhamar-a",
+        "counter-fb-brtc-gazirkhamar-b"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01791360714",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-fb-sonar-bangla",
+      "name_bn": "সোনার বাংলা (নন-এসি গেইট লক সার্ভিস)",
+      "name_en": "Sonar Bangla (Non-AC Gate Lock Service)",
+      "operator_bn": "সোনার বাংলা (নন-এসি গেইট লক সার্ভিস)",
+      "operator_en": "Sonar Bangla (Non-AC Gate Lock Service)",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-fb-sonar-bangla-a",
+        "counter-fb-sonar-bangla-b"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified)"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
     }
   ]
 }

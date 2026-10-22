@@ -181,6 +181,63 @@
         "source": "user-provided"
       },
       "updatedAt": "2026-10-22T05:21:10.609Z"
+    },
+    {
+      "id": "route-fb-sherpur-dhaka",
+      "name_bn": "ঢাকা – শেরপুর",
+      "name_en": "Dhaka – Sherpur",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        }
+      ],
+      "approxDurationMin": 330,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "route-fb-gazirkhamar-dhaka",
+      "name_bn": "ঢাকা – শেরপুর – গাজীরখামার",
+      "name_en": "Dhaka – Sherpur – Gazirkhamar",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        },
+        {
+          "id": "gazirkhamar",
+          "bn": "গাজীরখামার",
+          "en": "Gazirkhamar"
+        }
+      ],
+      "approxDurationMin": 360,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "facebook-post-461540096431776 (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-22T00:00:00Z"
     }
   ]
 }

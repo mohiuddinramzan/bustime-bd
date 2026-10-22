@@ -4,7 +4,7 @@
     "bn": "বাসটাইম বিডি",
     "en": "BusTime BD"
   },
-  "dataVersion": "0.2.0",
+  "dataVersion": "0.3.0",
   "dataUpdated": "2026-10-22",
   "dataMode": "json-bundled",
   "isDemoData": true,
@@ -90,6 +90,12 @@
       "ayaat",
       "aayat",
       "আয়াত"
+    ],
+    "gazirkhamar": [
+      "gazirkhamar",
+      "gazirkhamar",
+      "gajirkhamar",
+      "গাজীরখামার"
     ]
   }
 }
