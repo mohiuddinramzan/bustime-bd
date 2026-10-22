@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "description": "DEMO routes. Intermediate stops and durations are placeholders, not verified.",
+  "items": [
+    {
+      "id": "route-dhaka-sreebardi",
+      "name_bn": "ঢাকা – শ্রীবরদী",
+      "name_en": "Dhaka – Sreebardi",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "gazipur",
+          "bn": "গাজীপুর",
+          "en": "Gazipur"
+        },
+        {
+          "id": "mymensingh",
+          "bn": "ময়মনসিংহ",
+          "en": "Mymensingh"
+        },
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        },
+        {
+          "id": "sreebardi",
+          "bn": "শ্রীবরদী",
+          "en": "Sreebardi"
+        }
+      ],
+      "approxDurationMin": 330,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "route-dhaka-bakshiganj",
+      "name_bn": "ঢাকা – বকশীগঞ্জ",
+      "name_en": "Dhaka – Bakshiganj",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "gazipur",
+          "bn": "গাজীপুর",
+          "en": "Gazipur"
+        },
+        {
+          "id": "mymensingh",
+          "bn": "ময়মনসিংহ",
+          "en": "Mymensingh"
+        },
+        {
+          "id": "jamalpur",
+          "bn": "জামালপুর",
+          "en": "Jamalpur"
+        },
+        {
+          "id": "bakshiganj",
+          "bn": "বকশীগঞ্জ",
+          "en": "Bakshiganj"
+        }
+      ],
+      "approxDurationMin": 360,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "route-dhaka-sherpur",
+      "name_bn": "ঢাকা – শেরপুর",
+      "name_en": "Dhaka – Sherpur",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "gazipur",
+          "bn": "গাজীপুর",
+          "en": "Gazipur"
+        },
+        {
+          "id": "mymensingh",
+          "bn": "ময়মনসিংহ",
+          "en": "Mymensingh"
+        },
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        }
+      ],
+      "approxDurationMin": 270,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    }
+  ]
+}

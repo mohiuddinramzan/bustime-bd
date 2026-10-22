@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "description": "DEMO schedules. Times are placeholders, not real.",
+  "items": [
+    {
+      "id": "sch-demo-001",
+      "busId": "bus-demo-001",
+      "routeId": "route-dhaka-sreebardi",
+      "direction": "outbound",
+      "departureTime": "07:00",
+      "counterId": "counter-dhaka-demo-1",
+      "operatingDays": [
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "sch-demo-002",
+      "busId": "bus-demo-001",
+      "routeId": "route-dhaka-sreebardi",
+      "direction": "return",
+      "departureTime": "14:00",
+      "counterId": "counter-sreebardi-demo",
+      "operatingDays": [
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "sch-demo-003",
+      "busId": "bus-demo-001",
+      "routeId": "route-dhaka-sreebardi",
+      "direction": "outbound",
+      "departureTime": "22:30",
+      "counterId": "counter-dhaka-demo-1",
+      "operatingDays": [
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "sch-demo-004",
+      "busId": "bus-demo-002",
+      "routeId": "route-dhaka-sreebardi",
+      "direction": "outbound",
+      "departureTime": "09:15",
+      "counterId": "counter-dhaka-demo-1",
+      "operatingDays": [
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "sat"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "sch-demo-005",
+      "busId": "bus-demo-002",
+      "routeId": "route-dhaka-sreebardi",
+      "direction": "return",
+      "departureTime": "21:00",
+      "counterId": "counter-sreebardi-demo",
+      "operatingDays": [
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "sat"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "sch-demo-006",
+      "busId": "bus-demo-003",
+      "routeId": "route-dhaka-bakshiganj",
+      "direction": "outbound",
+      "departureTime": "08:30",
+      "counterId": "counter-dhaka-demo-2",
+      "operatingDays": [
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "sch-demo-007",
+      "busId": "bus-demo-003",
+      "routeId": "route-dhaka-bakshiganj",
+      "direction": "return",
+      "departureTime": "15:45",
+      "counterId": "counter-bakshiganj-demo",
+      "operatingDays": [
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "sch-demo-008",
+      "busId": "bus-demo-003",
+      "routeId": "route-dhaka-bakshiganj",
+      "direction": "outbound",
+      "departureTime": "23:00",
+      "counterId": "counter-dhaka-demo-2",
+      "operatingDays": [
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "sch-demo-009",
+      "busId": "bus-demo-002",
+      "routeId": "route-dhaka-bakshiganj",
+      "direction": "outbound",
+      "departureTime": "06:15",
+      "counterId": "counter-dhaka-demo-1",
+      "operatingDays": [
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "sch-demo-010",
+      "busId": "bus-demo-002",
+      "routeId": "route-dhaka-bakshiganj",
+      "direction": "return",
+      "departureTime": "05:30",
+      "counterId": "counter-bakshiganj-demo",
+      "operatingDays": [
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "sch-demo-011",
+      "busId": "bus-demo-001",
+      "routeId": "route-dhaka-sherpur",
+      "direction": "outbound",
+      "departureTime": "12:00",
+      "counterId": "counter-dhaka-demo-1",
+      "operatingDays": [
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "sch-demo-012",
+      "busId": "bus-demo-001",
+      "routeId": "route-dhaka-sherpur",
+      "direction": "return",
+      "departureTime": "18:30",
+      "counterId": "counter-sherpur-demo",
+      "operatingDays": [
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "sch-demo-013",
+      "busId": "bus-demo-004",
+      "routeId": "route-dhaka-sreebardi",
+      "direction": "outbound",
+      "departureTime": "10:00",
+      "counterId": "counter-dhaka-demo-1",
+      "operatingDays": [
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "status": "draft",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    }
+  ]
+}

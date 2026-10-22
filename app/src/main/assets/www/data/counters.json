@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "description": "DEMO counters. Phone numbers are fake placeholders.",
+  "items": [
+    {
+      "id": "counter-dhaka-demo-1",
+      "name_bn": "ঢাকা ডেমো কাউন্টার ১",
+      "name_en": "Dhaka Demo Counter 1",
+      "placeId": "dhaka",
+      "address_bn": "ডেমো ঠিকানা (যাচাই করা হয়নি)",
+      "address_en": "Demo address (not verified)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01000000101",
+          "demo": true
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "counter-dhaka-demo-2",
+      "name_bn": "ঢাকা ডেমো কাউন্টার ২",
+      "name_en": "Dhaka Demo Counter 2",
+      "placeId": "dhaka",
+      "address_bn": "ডেমো ঠিকানা (যাচাই করা হয়নি)",
+      "address_en": "Demo address (not verified)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01000000102",
+          "demo": true
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "counter-sreebardi-demo",
+      "name_bn": "শ্রীবরদী ডেমো কাউন্টার",
+      "name_en": "Sreebardi Demo Counter",
+      "placeId": "sreebardi",
+      "address_bn": "ডেমো ঠিকানা (যাচাই করা হয়নি)",
+      "address_en": "Demo address (not verified)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01000000103",
+          "demo": true
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "counter-bakshiganj-demo",
+      "name_bn": "বকশীগঞ্জ ডেমো কাউন্টার",
+      "name_en": "Bakshiganj Demo Counter",
+      "placeId": "bakshiganj",
+      "address_bn": "ডেমো ঠিকানা (যাচাই করা হয়নি)",
+      "address_en": "Demo address (not verified)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01000000104",
+          "demo": true
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "counter-sherpur-demo",
+      "name_bn": "শেরপুর ডেমো কাউন্টার",
+      "name_en": "Sherpur Demo Counter",
+      "placeId": "sherpur",
+      "address_bn": "ডেমো ঠিকানা (যাচাই করা হয়নি)",
+      "address_en": "Demo address (not verified)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01000000105",
+          "demo": true
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    }
+  ]
+}

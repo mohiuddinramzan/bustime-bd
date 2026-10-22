@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "description": "DEMO bus records. Not verified.",
+  "items": [
+    {
+      "id": "bus-demo-001",
+      "name_bn": "ডেমো এক্সপ্রেস",
+      "name_en": "Demo Express",
+      "operator_bn": "ডেমো পরিবহন এ",
+      "operator_en": "Demo Paribahan A",
+      "type": "AC",
+      "counterIds": [
+        "counter-dhaka-demo-1",
+        "counter-sreebardi-demo",
+        "counter-sherpur-demo"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "ডেমো সুপারভাইজার ১",
+          "name_en": "Demo Supervisor 1",
+          "phone": "01000000011",
+          "demo": true
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "bus-demo-002",
+      "name_bn": "ডেমো সুপার",
+      "name_en": "Demo Super",
+      "operator_bn": "ডেমো পরিবহন বি",
+      "operator_en": "Demo Paribahan B",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-dhaka-demo-1",
+        "counter-sreebardi-demo",
+        "counter-bakshiganj-demo"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "ডেমো সুপারভাইজার ২",
+          "name_en": "Demo Supervisor 2",
+          "phone": "01000000012",
+          "demo": true
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "bus-demo-003",
+      "name_bn": "নমুনা ট্রাভেলস",
+      "name_en": "Sample Travels",
+      "operator_bn": "নমুনা ট্রাভেলস (ডেমো)",
+      "operator_en": "Sample Travels (demo)",
+      "type": "AC",
+      "counterIds": [
+        "counter-dhaka-demo-2",
+        "counter-bakshiganj-demo"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "ডেমো সুপারভাইজার ৩",
+          "name_en": "Demo Supervisor 3",
+          "phone": "01000000013",
+          "demo": true
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "bus-demo-004",
+      "name_bn": "ড্রাফট বাস",
+      "name_en": "Draft Bus",
+      "operator_bn": "ড্রাফট অপারেটর",
+      "operator_en": "Draft Operator",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-dhaka-demo-1"
+      ],
+      "supervisors": [],
+      "status": "draft",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "demo-placeholder"
+      },
+      "updatedAt": "2026-10-21T00:00:00Z"
+    }
+  ]
+}

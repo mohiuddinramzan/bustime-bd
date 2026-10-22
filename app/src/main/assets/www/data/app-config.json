@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "appName": {
+    "bn": "বাসটাইম বিডি",
+    "en": "BusTime BD"
+  },
+  "dataVersion": "0.1.0-demo",
+  "dataUpdated": "2026-10-21",
+  "dataMode": "json-bundled",
+  "isDemoData": true,
+  "dayStart": "06:00",
+  "nightStart": "18:00",
+  "staleAfterDays": 90,
+  "defaultLanguage": "bn",
+  "defaultTheme": "system",
+  "disclaimer": {
+    "bn": "এই অ্যাপের সব সময়সূচি, নাম ও ফোন নম্বর ডেমো নমুনা। যাচাই না হওয়া পর্যন্ত এগুলো সত্য তথ্য নয়।",
+    "en": "All schedules, names and phone numbers in this app are demo samples. They are not real until verified."
+  },
+  "aliases": {
+    "dhaka": [
+      "dhaka",
+      "dacca",
+      "dhaaka",
+      "ঢাকা"
+    ],
+    "sreebardi": [
+      "sreebardi",
+      "sribardi",
+      "shribordi",
+      "sreebordi",
+      "shreebordi",
+      "sribordi",
+      "শ্রীবরদী",
+      "শ্রীবর্দী"
+    ],
+    "bakshiganj": [
+      "bakshiganj",
+      "bakshigonj",
+      "bokshiganj",
+      "bokshigonj",
+      "bakshigong",
+      "বকশীগঞ্জ",
+      "বক্সীগঞ্জ"
+    ],
+    "mymensingh": [
+      "mymensingh",
+      "mymensing",
+      "momenshahi",
+      "ময়মনসিংহ"
+    ],
+    "sherpur": [
+      "sherpur",
+      "serpur",
+      "শেরপুর"
+    ],
+    "jamalpur": [
+      "jamalpur",
+      "jamalpure",
+      "জামালপুর"
+    ],
+    "gazipur": [
+      "gazipur",
+      "gajipur",
+      "গাজীপুর"
+    ],
+    "counter": [
+      "counter",
+      "kounter",
+      "কাউন্টার"
+    ],
+    "bus": [
+      "bus",
+      "বাস"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BusTime BD</string>
+    <string name="blocked_link">এই লিংক ব্লক করা হয়েছে / External link blocked</string>
+    <string name="no_dialer">ডায়ালার পাওয়া যায়নি / No dialer app found</string>
+</resources>
