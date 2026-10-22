@@ -10,7 +10,7 @@ import { phoneDigits, isValidPhone, formatPhone, toTel, clone } from '../app/src
 import { setLang, formatTime, formatDuration, formatDate, dayLabel, t } from '../app/src/main/assets/www/js/i18n.js';
 import { STRINGS } from '../app/src/main/assets/www/js/strings.js';
 import { LocalDemoAuth, AuthError } from '../app/src/main/assets/www/js/auth.js';
-import { FirebaseRepository, NotConfiguredError, isFirebaseConfigured } from '../app/src/main/assets/www/js/firebase-adapter.js';
+import { FirebaseRepository, NotConfiguredError, isFirebaseConfigured, toFs, fromFs } from '../app/src/main/assets/www/js/firebase-adapter.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dataDir = path.join(root, 'app/src/main/assets/www/data');
@@ -222,6 +222,10 @@ test('local demo auth never grants publish; signed-out grants nothing', async ()
 test('Firebase adapter is inactive until configured', async () => {
   assert.equal(isFirebaseConfigured(), false);
   await assert.rejects(() => new FirebaseRepository().load(), NotConfiguredError);
+});
+test('Firestore value encoding round-trips', () => {
+  const o = { a: 'x', n: 3, f: 1.5, b: true, z: null, l: [1, 'b', { k: [] }], m: { p: 'বাংলা' } };
+  assert.deepEqual(fromFs(toFs(o)), o);
 });
 
 await Promise.all(pending);

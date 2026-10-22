@@ -6,8 +6,10 @@
       - All pages are bundled assets served through WebViewAssetLoader (no INTERNET needed).
       - Calls use ACTION_DIAL (opens the dialer; no CALL_PHONE permission).
       - Clipboard and the file picker need no permission.
-      - Add INTERNET only when Firebase is enabled (see docs/FIREBASE_GUIDE.md).
+      - INTERNET is declared only for Firebase (Firestore/Auth REST calls); see docs/FIREBASE_GUIDE.md.
     -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="false"

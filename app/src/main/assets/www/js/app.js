@@ -4,6 +4,7 @@ import { esc, formatPhone, byId } from './util.js';
 import { store } from './store.js';
 import { JsonRepository, KEYS } from './repository.js';
 import { buildIndex, buildAliasIndex, searchEntries, applyFilters, nextDepartures, listOptions } from './search.js';
+import { isFirebaseConfigured, FirebaseRepository } from './firebase-adapter.js';
 import { callNumber, copyPhone } from './native.js';
 import { toast, confirmDialog } from './ui.js';
 
@@ -40,7 +41,13 @@ async function load() {
   app.status = 'loading';
   render();
   try {
-    const { data, meta } = await repo.load();
+    let { data, meta } = await repo.load();
+    if (isFirebaseConfigured() && meta.source !== 'local-edits') {
+      const ok = (r) => r.buses.length > 0;
+      let remote = null;
+      try { const r = (await new FirebaseRepository().load()).data; if (ok(r)) { remote = r; store.set('bt_remote_v1', r); } } catch { remote = store.get('bt_remote_v1'); if (!remote || !ok(remote)) remote = null; }
+      if (remote) { data = { ...remote, config: Object.keys(remote.config).length ? remote.config : data.config }; meta = { ...meta, source: 'remote' }; }
+    }
     app.data = data;
     app.meta = meta;
     app.index = buildIndex(data);

@@ -42,3 +42,9 @@ Users read published data only; every create/update/delete needs the admin claim
 
 ## 5. Before going live
 Verify real data, set `verification.status: verified` with dates, turn off `isDemoData`, review the rules, and keep Firebase billing/quotas in view.
+
+## 6. Current implementation (REST, no SDK bundle)
+- `js/firebase-adapter.js` now uses the Firestore and Identity Toolkit REST APIs, so no SDK bundling is needed. CSP `connect-src` allows only `firestore.googleapis.com` and `identitytoolkit.googleapis.com`; `INTERNET` is declared in the manifest.
+- Put your web `apiKey` in `js/firebase-config.js` (public config). Until then Firebase stays inactive and the app uses the bundled JSON.
+- Users: the app reads `status == 'published'` records from Firestore and falls back to bundled JSON if Firestore is empty or unreachable.
+- Admin: sign in on the admin page (Email/Password user that has the `admin: true` claim), then use **Publish to Firebase** on the dashboard. Records removed locally are deleted remotely; config is written to `config/app`.

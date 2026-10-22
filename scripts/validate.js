@@ -18,7 +18,7 @@ const required = ['settings.gradle', 'build.gradle', 'gradle.properties', 'gradl
   'app/src/test/java/bd/bustime/app/UrlPolicyTest.kt', '.github/workflows/android.yml', 'README.md', 'FILES.md',
   'docs/FIREBASE_GUIDE.md', 'docs/TROUBLESHOOTING.md', 'docs/DATA.md',
   ...['index.html', 'admin.html', 'offline.html', 'css/app.css', 'js/app.js', 'js/admin.js', 'js/util.js', 'js/i18n.js', 'js/strings.js', 'js/search.js',
-    'js/validate.js', 'js/repository.js', 'js/firebase-adapter.js', 'js/auth.js', 'js/native.js', 'js/store.js', 'js/ui.js',
+    'js/validate.js', 'js/repository.js', 'js/firebase-adapter.js', 'js/firebase-config.js', 'js/auth.js', 'js/native.js', 'js/store.js', 'js/ui.js',
     'data/buses.json', 'data/routes.json', 'data/schedules.json', 'data/counters.json', 'data/app-config.json'].map((f) => 'app/src/main/assets/www/' + f)];
 for (const f of required) fs.existsSync(path.join(root, f)) ? 0 : fail('missing file: ' + f);
 if (!failed) ok(`${required.length} required files present`);

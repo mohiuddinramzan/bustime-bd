@@ -5,7 +5,7 @@ import { esc, clone, byId, getPath, setPath, localISODate, DAYS, DAY_ORDER } fro
 import { store } from './store.js';
 import { JsonRepository } from './repository.js';
 import { LocalDemoAuth, AuthError } from './auth.js';
-import { isFirebaseConfigured, FirebaseAuthAdapter } from './firebase-adapter.js';
+import { isFirebaseConfigured, FirebaseAuthAdapter, FirebaseRepository } from './firebase-adapter.js';
 import { validateRecord, validateDataset, validateBundle, findDuplicate, deleteBlockers, toBundle, ENTITIES } from './validate.js';
 import { saveJson, copyText } from './native.js';
 import { toast, confirmDialog } from './ui.js';
@@ -170,7 +170,7 @@ function dashboardPage() {
     <section class="card stack"><h2>${t('a.checks')}</h2>
       ${errors.length || warnings.length ? `<div class="row"><span class="badge warn">${t('a.checks.errors', { n: errors.length })}</span><span class="badge">${t('a.checks.warnings', { n: warnings.length })}</span></div>` : `<span class="badge ok">${t('a.checks.ok')}</span>`}
       ${errors.slice(0, 15).map(line).join('')}${warnings.slice(0, 15).map(line).join('')}</section>
-    <section class="card stack"><h2>${t('a.publish.title')}</h2><div class="notice">${t('a.publish.body')}</div></section>
+    <section class="card stack"><h2>${t('a.publish.title')}</h2>${st.provider?.can('publish') ? `<button class="btn block" data-action="fb-publish">${t('a.publish.btn')}</button>` : `<div class="notice">${t('a.publish.body')}</div>`}</section>
     <a class="btn block" href="#/data">${t('a.data')}</a></div>`;
 }
 
@@ -292,6 +292,14 @@ document.addEventListener('click', async (e) => {
         const p = new FirebaseAuthAdapter();
         await p.signIn({ email: $('#fbEmail').value, password: $('#fbPass').value });
         st.provider = p; location.hash = '#/'; render(); break;
+      }
+      case 'fb-publish': {
+        st.provider.require('publish');
+        if (validateDataset(st.data).errors.length) { toast(t('a.publish.errs')); break; }
+        if (!(await confirmDialog({ title: t('a.publish.title'), body: t('a.publish.confirm'), ok: t('a.publish.btn'), cancel: t('cancel'), danger: true }))) break;
+        const n = await new FirebaseRepository().publish(st.data, st.provider.token());
+        toast(t('a.publish.done', { n }));
+        break;
       }
       case 'logout': await st.provider?.signOut(); st.provider = null; location.hash = '#/login'; render(); break;
       case 'retry': load(); break;
