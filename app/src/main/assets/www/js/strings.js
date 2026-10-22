@@ -29,7 +29,7 @@ export const STRINGS = {
     'days.daily': 'প্রতিদিন', 'days.except': '{day} বাদে প্রতিদিন',
     'day.sat': 'শনি', 'day.sun': 'রবি', 'day.mon': 'সোম', 'day.tue': 'মঙ্গল', 'day.wed': 'বুধ', 'day.thu': 'বৃহস্পতি', 'day.fri': 'শুক্র',
     // admin
-    'a.title': 'অ্যাডমিন', 'a.home': 'ড্যাশবোর্ড', 'a.logout': 'বের হন', 'a.toApp': 'অ্যাপে ফিরুন',
+    'a.title': 'অ্যাডমিন', 'a.home': 'ড্যাশবোর্ড', 'a.logout': 'বের হন', 'a.login.email': 'ইমেইল', 'a.login.pass': 'পাসওয়ার্ড', 'a.login.btn': 'লগইন', 'a.login.err.bad': 'ইমেইল বা পাসওয়ার্ড ভুল।', 'a.login.err.notAdmin': 'এই অ্যাকাউন্টের অ্যাডমিন অনুমতি নেই।', 'a.login.err.net': 'ইন্টারনেট সংযোগ পাওয়া যায়নি। আবার চেষ্টা করুন।', 'a.login.err.expired': 'সেশন শেষ হয়েছে। আবার লগইন করুন।', 'a.signedAs': 'লগইন করা আছে:', 'a.toApp': 'অ্যাপে ফিরুন',
     'a.login.title': 'অ্যাডমিন প্রবেশ', 'a.login.fb': 'নিরাপদ অ্যাডমিন লগইন (Firebase)', 'a.login.fbOff': 'Firebase এখনো কনফিগার করা হয়নি, তাই নিরাপদ লগইন ও সবার জন্য প্রকাশ বন্ধ আছে। docs/FIREBASE_GUIDE.md দেখুন।',
     'a.login.demoTitle': 'স্থানীয় ডেমো মোড', 'a.login.demoWarn': 'এটি পরিচয় যাচাই বা নিরাপত্তা নয়। এতে শুধু এই ফোনে ডেটার একটি কপি সম্পাদনা করা যায়। অন্য ব্যবহারকারীর অ্যাপে কিছু পৌঁছাবে না।', 'a.login.demoBtn': 'স্থানীয় ডেমো মোডে ঢুকুন',
     'a.banner': 'স্থানীয় মোড: পরিবর্তন শুধু এই ফোনে সংরক্ষিত হয়। অন্য ব্যবহারকারীর অ্যাপ আপডেট হবে না।',
@@ -91,7 +91,7 @@ export const STRINGS = {
     'days.daily': 'Every day', 'days.except': 'Every day except {day}',
     'day.sat': 'Sat', 'day.sun': 'Sun', 'day.mon': 'Mon', 'day.tue': 'Tue', 'day.wed': 'Wed', 'day.thu': 'Thu', 'day.fri': 'Fri',
     // admin
-    'a.title': 'Admin', 'a.home': 'Dashboard', 'a.logout': 'Sign out', 'a.toApp': 'Back to app',
+    'a.title': 'Admin', 'a.home': 'Dashboard', 'a.logout': 'Sign out', 'a.login.email': 'Email', 'a.login.pass': 'Password', 'a.login.btn': 'Sign in', 'a.login.err.bad': 'Wrong email or password.', 'a.login.err.notAdmin': 'This account does not have admin permission.', 'a.login.err.net': 'No internet connection. Try again.', 'a.login.err.expired': 'Session expired. Sign in again.', 'a.signedAs': 'Signed in as:', 'a.toApp': 'Back to app',
     'a.login.title': 'Admin sign-in', 'a.login.fb': 'Secure admin sign-in (Firebase)', 'a.login.fbOff': 'Firebase is not configured yet, so secure sign-in and publishing to all users are unavailable. See docs/FIREBASE_GUIDE.md.',
     'a.login.demoTitle': 'Local demo mode', 'a.login.demoWarn': 'This is not authentication or security. It only lets you edit a copy of the data on this phone. Nothing reaches other users.', 'a.login.demoBtn': 'Enter local demo mode',
     'a.banner': 'Local mode: changes are saved on this phone only. Other users\u2019 apps will not update.',

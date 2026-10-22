@@ -150,28 +150,30 @@ async function saveRecord(ent, isNew, baseId) {
 const notice = () => `<div class="notice">${t('a.banner')}</div>${st.meta?.localBaseMismatch ? `<div class="notice err">${t('a.mismatch')}</div>` : ''}`;
 
 function loginPage() {
+  const fb = isFirebaseConfigured();
   return `<div class="stack"><h1>${t('a.login.title')}</h1>
-    <section class="card stack"><h2>${t('a.login.fb')}</h2>${isFirebaseConfigured()
-      ? `<div class="field"><label class="f" for="fbEmail">Email</label><input id="fbEmail" type="email" autocomplete="username"></div>
-         <div class="field"><label class="f" for="fbPass">Password</label><input id="fbPass" type="password" autocomplete="current-password"></div>
-         <button class="btn block" data-action="fb-login">${t('a.login.title')}</button>`
+    <section class="card stack">${fb
+      ? `<div class="field"><label class="f" for="fbEmail">${t('a.login.email')}</label><input id="fbEmail" type="email" autocomplete="username" inputmode="email"></div>
+         <div class="field"><label class="f" for="fbPass">${t('a.login.pass')}</label><input id="fbPass" type="password" autocomplete="current-password"></div>
+         <button class="btn block" data-action="fb-login">${t('a.login.btn')}</button>`
       : `<div class="notice">${t('a.login.fbOff')}</div>`}</section>
-    <section class="card stack"><h2>${t('a.login.demoTitle')}</h2><div class="notice err">${t('a.login.demoWarn')}</div>
-      <button class="btn block" data-action="demo-login">${t('a.login.demoBtn')}</button></section>
+    ${fb ? '' : `<section class="card stack"><h2>${t('a.login.demoTitle')}</h2><div class="notice err">${t('a.login.demoWarn')}</div>
+      <button class="btn block" data-action="demo-login">${t('a.login.demoBtn')}</button></section>`}
     <a class="btn ghost block" href="index.html">${t('a.toApp')}</a></div>`;
 }
 
 function dashboardPage() {
   const { errors, warnings } = validateDataset(st.data);
   const line = (x) => `<div class="list-item"><div class="grow"><b>${esc(x.file)}${x.id ? ' / ' + esc(x.id) : ''}</b><div class="muted">${esc(x.field)} – ${t('e.' + x.code)}</div></div></div>`;
-  return `<div class="stack">${notice()}<h1>${t('a.home')}</h1>
+  return `<div class="stack">${notice()}<h1>${t('a.home')}</h1>${st.provider?.claims?.email ? `<div class="muted" dir="ltr">${t('a.signedAs')} ${esc(st.provider.claims.email)}</div>` : ''}
     <section class="card"><h2>${t('a.counts')}</h2>${ENTITIES.map((e) =>
       `<a class="list-item" href="#/list/${e}"><span class="grow">${t('a.ent.' + e)}</span><b>${st.data[e].length}</b></a>`).join('')}</section>
     <section class="card stack"><h2>${t('a.checks')}</h2>
       ${errors.length || warnings.length ? `<div class="row"><span class="badge warn">${t('a.checks.errors', { n: errors.length })}</span><span class="badge">${t('a.checks.warnings', { n: warnings.length })}</span></div>` : `<span class="badge ok">${t('a.checks.ok')}</span>`}
       ${errors.slice(0, 15).map(line).join('')}${warnings.slice(0, 15).map(line).join('')}</section>
     <section class="card stack"><h2>${t('a.publish.title')}</h2>${st.provider?.can('publish') ? `<button class="btn block" data-action="fb-publish">${t('a.publish.btn')}</button>` : `<div class="notice">${t('a.publish.body')}</div>`}</section>
-    <a class="btn block" href="#/data">${t('a.data')}</a></div>`;
+    <a class="btn block" href="#/data">${t('a.data')}</a>
+    <button class="btn ghost block" data-action="logout">${t('a.logout')}</button></div>`;
 }
 
 function listPage(ent) {
@@ -281,6 +283,22 @@ function checkImport() {
   st.importMsg = `<div class="notice">${t('a.import.valid', { counts: ENTITIES.map((e) => `${t('a.ent.' + e)} ${obj[e].length}`).join(', ') })}</div>`;
 }
 
+const authMsg = (e) => {
+  const m = String(e.message);
+  if (/not-admin/.test(m)) return t('a.login.err.notAdmin');
+  if (/expired/.test(m)) return t('a.login.err.expired');
+  if (/forbidden/.test(m)) return t('a.login.title');
+  if (/fetch|abort|network/i.test(m)) return t('a.login.err.net');
+  return t('a.login.err.bad');
+};
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && (e.target.id === 'fbEmail' || e.target.id === 'fbPass')) {
+    e.preventDefault();
+    document.querySelector('[data-action="fb-login"]')?.click();
+  }
+});
+
 document.addEventListener('click', async (e) => {
   const el = e.target.closest('[data-action]');
   if (!el) return;
@@ -290,7 +308,8 @@ document.addEventListener('click', async (e) => {
       case 'demo-login': { const p = new LocalDemoAuth(); await p.signIn(); st.provider = p; location.hash = '#/'; render(); break; }
       case 'fb-login': {
         const p = new FirebaseAuthAdapter();
-        await p.signIn({ email: $('#fbEmail').value, password: $('#fbPass').value });
+        el.disabled = true;
+        try { await p.signIn({ email: $('#fbEmail').value.trim(), password: $('#fbPass').value }); } finally { el.disabled = false; }
         st.provider = p; location.hash = '#/'; render(); break;
       }
       case 'fb-publish': {
@@ -326,7 +345,7 @@ document.addEventListener('click', async (e) => {
     }
   } catch (err) {
     console.error(err);
-    toast(err instanceof AuthError ? t('a.login.title') : String(err.message || err));
+    toast(err instanceof AuthError ? authMsg(err) : String(err.message || err));
   }
 });
 
