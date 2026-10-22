@@ -50,10 +50,12 @@ test('normalization: Bengali digits, vowel/spelling variants', () => {
 test('search: Bengali, English and alias spellings find the same route', () => {
   for (const term of ['শ্রীবরদী', 'sreebardi', 'Shribordi', 'sribardi', 'শ্রীবর্দী']) {
     const r = routeIds(q(term));
-    assert.deepEqual([...r], ['route-dhaka-sreebardi'], term);
+    assert.ok(r.has('route-dhaka-sreebardi') && !r.has('route-dhaka-bakshiganj') && !r.has('route-dhaka-sherpur'), term);
   }
-  assert.deepEqual([...routeIds(q('bakshiganj'))], ['route-dhaka-bakshiganj']);
-  assert.deepEqual([...routeIds(q('বকশীগঞ্জ'))], ['route-dhaka-bakshiganj']);
+  for (const term of ['bakshiganj', 'বকশীগঞ্জ']) {
+    const r = routeIds(q(term));
+    assert.ok(r.has('route-dhaka-bakshiganj') && !r.has('route-dhaka-sreebardi') && !r.has('route-dhaka-sherpur'), term);
+  }
 });
 test('search: fuzzy typo (distance 1) and multi-word', () => {
   assert.ok(q('sreebrdi').length > 0);

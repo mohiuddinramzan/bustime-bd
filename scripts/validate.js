@@ -36,7 +36,8 @@ if (!errors.length) ok(`data valid (${dataset.buses.length} buses, ${dataset.rou
 
 // 3. demo data must never look verified
 const verified = ['buses', 'routes', 'schedules', 'counters'].flatMap((k) => (dataset[k] || []).filter((r) => r.verification?.status === 'verified'));
-const demoNums = (dataset.counters || []).flatMap((c) => c.phones).concat((dataset.buses || []).flatMap((b) => b.supervisors));
+const isDemo = (r) => r.verification?.source === 'demo-placeholder';
+const demoNums = (dataset.counters || []).filter(isDemo).flatMap((c) => c.phones).concat((dataset.buses || []).filter(isDemo).flatMap((b) => b.supervisors));
 if (dataset.config?.isDemoData && verified.length) fail('demo dataset contains records marked verified');
 if (demoNums.some((p) => p.demo !== true) && dataset.config?.isDemoData) fail('demo dataset has phone numbers not flagged demo:true');
 if (!failed) ok('demo records are all unverified/flagged');

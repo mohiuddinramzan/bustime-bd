@@ -311,6 +311,146 @@
         "source": "demo-placeholder"
       },
       "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "sch-sotota-001",
+      "busId": "bus-sotota-express",
+      "routeId": "route-sotota-dhaka-bakshiganj",
+      "direction": "return",
+      "departureTime": "06:40",
+      "counterId": "counter-sotota-bakshiganj",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "user-provided"
+      },
+      "updatedAt": "2026-10-22T05:21:10.609Z"
+    },
+    {
+      "id": "sch-sotota-002",
+      "busId": "bus-sotota-express",
+      "routeId": "route-sotota-dhaka-bakshiganj",
+      "direction": "outbound",
+      "departureTime": "16:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "user-provided"
+      },
+      "updatedAt": "2026-10-22T05:21:10.609Z"
+    },
+    {
+      "id": "sch-sotota-003",
+      "busId": "bus-sotota-express",
+      "routeId": "route-sotota-dhaka-bakshiganj",
+      "direction": "return",
+      "departureTime": "22:00",
+      "counterId": "counter-sotota-bakshiganj",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "user-provided"
+      },
+      "updatedAt": "2026-10-22T05:21:10.609Z"
+    },
+    {
+      "id": "sch-sotota-004",
+      "busId": "bus-sotota-express",
+      "routeId": "route-sotota-dhaka-bakshiganj",
+      "direction": "outbound",
+      "departureTime": "07:20",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "user-provided"
+      },
+      "updatedAt": "2026-10-22T05:21:10.609Z"
+    },
+    {
+      "id": "sch-ayat-001",
+      "busId": "bus-ayat",
+      "routeId": "route-ayat-dhaka-vayadanga",
+      "direction": "return",
+      "departureTime": "05:50",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "user-provided"
+      },
+      "updatedAt": "2026-10-22T05:21:10.609Z"
+    },
+    {
+      "id": "sch-ayat-002",
+      "busId": "bus-ayat",
+      "routeId": "route-ayat-dhaka-vayadanga",
+      "direction": "outbound",
+      "departureTime": "11:50",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "user-provided"
+      },
+      "updatedAt": "2026-10-22T05:21:10.609Z"
     }
   ]
 }

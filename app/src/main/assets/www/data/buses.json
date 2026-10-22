@@ -103,6 +103,63 @@
         "source": "demo-placeholder"
       },
       "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "bus-sotota-express",
+      "name_bn": "সততা এক্সপ্রেস",
+      "name_en": "Sotota Express",
+      "operator_bn": "সততা এক্সপ্রেস",
+      "operator_en": "Sotota Express",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-sotota-bakshiganj",
+        "counter-sotota-sherpur"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "যোগাযোগ",
+          "name_en": "Contact",
+          "phone": "01743547620",
+          "demo": false
+        },
+        {
+          "name_bn": "যোগাযোগ",
+          "name_en": "Contact",
+          "phone": "01351603183",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "user-provided"
+      },
+      "updatedAt": "2026-10-22T05:21:10.609Z"
+    },
+    {
+      "id": "bus-ayat",
+      "name_bn": "আয়াত",
+      "name_en": "Ayat",
+      "operator_bn": "আয়াত",
+      "operator_en": "Ayat",
+      "type": "NON_AC",
+      "counterIds": [],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01909006072",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "user-provided"
+      },
+      "updatedAt": "2026-10-22T05:21:10.609Z"
     }
   ]
 }

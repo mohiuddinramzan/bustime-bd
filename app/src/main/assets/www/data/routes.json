@@ -119,6 +119,68 @@
         "source": "demo-placeholder"
       },
       "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "route-sotota-dhaka-bakshiganj",
+      "name_bn": "ঢাকা – শেরপুর – বকশীগঞ্জ",
+      "name_en": "Dhaka – Sherpur – Bakshiganj",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        },
+        {
+          "id": "bakshiganj",
+          "bn": "বকশীগঞ্জ",
+          "en": "Bakshiganj"
+        }
+      ],
+      "approxDurationMin": 360,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "user-provided"
+      },
+      "updatedAt": "2026-10-22T05:21:10.609Z"
+    },
+    {
+      "id": "route-ayat-dhaka-vayadanga",
+      "name_bn": "ঢাকা – শ্রীবরদী – ভায়াডাঙ্গা",
+      "name_en": "Dhaka – Sreebardi – Vayadanga",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "sreebardi",
+          "bn": "শ্রীবরদী",
+          "en": "Sreebardi"
+        },
+        {
+          "id": "vayadanga",
+          "bn": "ভায়াডাঙ্গা",
+          "en": "Vayadanga"
+        }
+      ],
+      "approxDurationMin": 300,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "user-provided"
+      },
+      "updatedAt": "2026-10-22T05:21:10.609Z"
     }
   ]
 }

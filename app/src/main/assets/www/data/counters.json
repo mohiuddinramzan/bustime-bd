@@ -111,6 +111,50 @@
         "source": "demo-placeholder"
       },
       "updatedAt": "2026-10-21T00:00:00Z"
+    },
+    {
+      "id": "counter-sotota-sherpur",
+      "name_bn": "সততা এক্সপ্রেস শেরপুর কাউন্টার",
+      "name_en": "Sotota Express Sherpur Counter",
+      "placeId": "sherpur",
+      "address_bn": "ঠিকানা যাচাই করা হয়নি",
+      "address_en": "Address not verified",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01743546757",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "user-provided"
+      },
+      "updatedAt": "2026-10-22T05:21:10.609Z"
+    },
+    {
+      "id": "counter-sotota-bakshiganj",
+      "name_bn": "সততা এক্সপ্রেস বকশীগঞ্জ কাউন্টার",
+      "name_en": "Sotota Express Bakshiganj Counter",
+      "placeId": "bakshiganj",
+      "address_bn": "ঠিকানা যাচাই করা হয়নি",
+      "address_en": "Address not verified",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01743545567",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "user-provided"
+      },
+      "updatedAt": "2026-10-22T05:21:10.609Z"
     }
   ]
 }

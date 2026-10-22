@@ -4,8 +4,8 @@
     "bn": "বাসটাইম বিডি",
     "en": "BusTime BD"
   },
-  "dataVersion": "0.1.0-demo",
-  "dataUpdated": "2026-10-21",
+  "dataVersion": "0.2.0",
+  "dataUpdated": "2026-10-22",
   "dataMode": "json-bundled",
   "isDemoData": true,
   "dayStart": "06:00",
@@ -72,6 +72,24 @@
     "bus": [
       "bus",
       "বাস"
+    ],
+    "vayadanga": [
+      "vayadanga",
+      "bhayadanga",
+      "bhaiadanga",
+      "vaiadanga",
+      "ভায়াডাঙ্গা"
+    ],
+    "sotota": [
+      "sotota",
+      "shotota",
+      "সততা"
+    ],
+    "ayat": [
+      "ayat",
+      "ayaat",
+      "aayat",
+      "আয়াত"
     ]
   }
 }
