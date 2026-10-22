@@ -29,6 +29,8 @@ import androidx.webkit.WebViewAssetLoader
 import java.io.ByteArrayInputStream
 import java.io.File
 
+private val FIREBASE_HOSTS = setOf("firestore.googleapis.com", "identitytoolkit.googleapis.com")
+
 /** Hosts the bundled web UI. Only https://appassets.androidplatform.net/assets/www/ is loaded in-app. */
 class MainActivity : AppCompatActivity() {
 
@@ -65,7 +67,9 @@ class MainActivity : AppCompatActivity() {
         webView.webViewClient = object : WebViewClient() {
             override fun shouldInterceptRequest(view: WebView, request: WebResourceRequest): WebResourceResponse? {
                 loader.shouldInterceptRequest(request.url)?.let { return it }
-                // Never let sub-resources reach the network.
+                // Only the two Firebase REST hosts may be reached (fetch from our own pages); everything else is blocked.
+                if (!request.isForMainFrame && request.url.scheme == "https" && request.url.host in FIREBASE_HOSTS) return null
+                // Never let any other sub-resource reach the network.
                 return WebResourceResponse(
                     "text/plain", "utf-8", 403, "Blocked", emptyMap(), ByteArrayInputStream(ByteArray(0))
                 )
