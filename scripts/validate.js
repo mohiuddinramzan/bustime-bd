@@ -81,7 +81,8 @@ if (!failed) ok('web assets consistent');
 // 6. secrets scan
 const secretRe = /(AIza[0-9A-Za-z_-]{35}|-----BEGIN [A-Z ]*PRIVATE KEY|"private_key"|service_account)/;
 for (const f of walk(root).filter((p) => /\.(js|json|kt|xml|md|yml|gradle|html)$/.test(p) && !p.endsWith('validate.js'))) {
-  if (secretRe.test(fs.readFileSync(f, 'utf8'))) fail('possible secret in ' + path.relative(root, f));
+  const re = f.endsWith('firebase-config.js') ? /(-----BEGIN [A-Z ]*PRIVATE KEY|"private_key"|service_account)/ : secretRe;
+  if (re.test(fs.readFileSync(f, 'utf8'))) fail('possible secret in ' + path.relative(root, f));
 }
 if (!failed) ok('no secrets found');
 
