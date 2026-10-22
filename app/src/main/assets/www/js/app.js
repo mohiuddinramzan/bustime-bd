@@ -122,8 +122,7 @@ const pages = {
   home() {
     const nx = nextDepartures(app.index, new Date());
     const quick = app.data.routes.filter((r) => r.status === 'published');
-    return `${app.data.config.isDemoData ? `<div class="notice">${esc(loc(app.data.config.disclaimer))}</div>` : ''}
-    ${app.meta.source === 'local-edits' ? `<div class="notice">${t('banner.local')}</div>` : ''}
+    return `${app.meta.source === 'local-edits' ? `<div class="notice">${t('banner.local')}</div>` : ''}
     <section class="card stack"><h1>${t('home.title')}</h1>${filterFields()}
       <button type="button" class="btn block" data-action="go-search">${t('home.go')}</button></section>
     <h2 class="sec">${t('home.shortcuts')}</h2>
@@ -228,8 +227,7 @@ const pages = {
       <div class="muted">${t('settings.version')}: ${esc(num(c.dataVersion))}</div>
       <div class="muted">${t('lastUpdated')}: ${esc(formatDate(c.dataUpdated))}</div>
       <div class="muted">${t('settings.mode')}: ${t('src.' + m.source)}</div>
-      <div class="muted">${t('settings.firebase')}: ${t('settings.firebase.off')}</div>
-      ${c.isDemoData ? `<div class="notice">${esc(loc(c.disclaimer))}</div>` : ''}</section>
+      <div class="muted">${t('settings.firebase')}: ${t('settings.firebase.off')}</div></section>
     <section class="card stack"><div class="row">
       <button type="button" class="btn ghost" data-action="clear-recents">${t('settings.clearRecents')}</button>
       <button type="button" class="btn ghost" data-action="clear-favs">${t('settings.clearFavs')}</button></div>
@@ -258,7 +256,6 @@ function render(resetScroll = false) {
   const top = $('#top');
   const chips = [];
   if (!navigator.onLine) chips.push(`<span class="chip amber">${t('chip.offline')}</span>`);
-  if (app.meta) chips.push(`<span class="chip">${t('src.' + app.meta.source)}</span>`);
   top.innerHTML = `<span class="brand">${esc(t('app.name'))}</span><span class="chips">${chips.join('')}</span>`;
   const active = { route: 'routes', trip: 'search' }[page] || page;
   $('#nav').innerHTML = NAV.map(([p, ic]) => `<a href="#/${p}" ${p === active ? 'aria-current="page"' : ''}>${svg(ic)}<span>${t('nav.' + p)}</span></a>`).join('');
