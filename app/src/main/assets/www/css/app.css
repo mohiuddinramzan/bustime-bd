@@ -170,3 +170,21 @@ input:focus, select:focus, textarea:focus { outline: 0; border-color: var(--navy
 .chip, .badge { font-weight: 500; }
 .badge.warn { border: 1px solid rgba(224, 162, 27, .45); }
 .checks label { border-radius: 14px; }
+
+/* ---------- Mockup look: deep navy palette, amber CTA, hero, quick tiles ---------- */
+:root[data-theme="dark"] { --bg: #08172e; --card: #0f2547; --line: #1d3f73; --text: #eef3fb; --muted: #9db3d1; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #08172e; --card: #0f2547; --line: #1d3f73; --text: #eef3fb; --muted: #9db3d1; } }
+.btn.cta { background: linear-gradient(180deg, #ffc83d, #f2a900); color: #201500; font-weight: 700; box-shadow: 0 4px 14px rgba(242, 169, 0, .3); }
+.hero { display: flex; align-items: center; gap: 14px; padding: 18px; border-radius: 20px; color: #fff; background: radial-gradient(120% 140% at 100% 0, #2a63b8 0, #0a2342 62%); box-shadow: var(--shadow-lg); margin-bottom: 12px; }
+.hero .logo { width: 52px; height: 52px; flex: none; display: grid; place-items: center; border-radius: 16px; background: #fff; color: #0a2342; }
+.hero .logo .ic { width: 30px; height: 30px; }
+.hname { font-size: 1.5rem; font-weight: 800; line-height: 1.1; }
+.hname b { color: #ffc83d; }
+.htag { font-size: .85rem; opacity: .85; margin-top: 2px; }
+.bigsearch { display: flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 16px; margin-bottom: 12px; border-radius: 16px; background: #fff; color: #5b6b83; text-decoration: none; box-shadow: var(--shadow-lg); border: 2px solid #2a63b8; }
+.bigsearch .ic { width: 20px; height: 20px; flex: none; color: #0a2342; }
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.tile { display: flex; align-items: center; gap: 10px; padding: 12px; border-radius: 16px; border: 1px solid var(--line); background: var(--card); color: var(--text); text-decoration: none; box-shadow: var(--shadow); }
+.tile .ic { width: 36px; height: 36px; padding: 8px; flex: none; border-radius: 12px; background: rgba(31, 79, 150, .22); color: #6fa3ee; }
+.tile b { display: block; font-size: .95rem; }
+.tile small { color: var(--muted); font-size: .75rem; }

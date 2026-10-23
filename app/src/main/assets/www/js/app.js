@@ -14,7 +14,7 @@ const app = {
   data: null, meta: null, index: [], aliasIdx: new Map(), opts: null, status: 'loading',
   favs: new Set(store.get('bt_favs', [])), recents: store.get('bt_recents', []), q: '', filters: {},
 };
-let theme = store.get('bt_theme', 'system');
+let theme = store.get('bt_theme', 'dark');
 setLang(store.get('bt_lang', 'bn'));
 
 const ICON = {
@@ -22,6 +22,7 @@ const ICON = {
   search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>',
   route: '<circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8.5 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.5"/>',
   heart: '<path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.5-9.5 9-9.5 9z"/>',
+  bus: '<rect x="4" y="3" width="16" height="14" rx="3"/><path d="M4 11h16M8 21v-4M16 21v-4"/><circle cx="8" cy="14" r=".6"/><circle cx="16" cy="14" r=".6"/>',
   sliders: '<path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/>',
 };
 const svg = (n) => `<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${ICON[n]}</svg>`;
@@ -123,8 +124,16 @@ const pages = {
     const nx = nextDepartures(app.index, new Date());
     const quick = app.data.routes.filter((r) => r.status === 'published');
     return `${app.meta.source === 'local-edits' ? `<div class="notice">${t('banner.local')}</div>` : ''}
+    <section class="hero"><span class="logo">${svg('bus')}</span><div><div class="hname">BusTime <b>BD</b></div><div class="htag">${t('home.tagline')}</div></div></section>
+    <a class="bigsearch" href="#/search">${svg('search')}<span>${t('home.bigsearch')}</span></a>
     <section class="card stack"><h1>${t('home.title')}</h1>${filterFields()}
-      <button type="button" class="btn block" data-action="go-search">${t('home.go')}</button></section>
+      <button type="button" class="btn cta block" data-action="go-search">${t('home.go')}</button></section>
+    <h2 class="sec">${t('home.quick')}</h2>
+    <div class="tiles">
+      <a class="tile" href="#/search">${svg('search')}<span><b>${t('q.time')}</b><small>${t('q.time.sub')}</small></span></a>
+      <a class="tile" href="#/search">${svg('sliders')}<span><b>${t('q.counter')}</b><small>${t('q.counter.sub')}</small></span></a>
+      <a class="tile" href="#/routes">${svg('route')}<span><b>${t('q.route')}</b><small>${t('q.route.sub')}</small></span></a>
+      <a class="tile" href="#/favorites">${svg('heart')}<span><b>${t('q.fav')}</b><small>${t('q.fav.sub')}</small></span></a></div>
     <h2 class="sec">${t('home.shortcuts')}</h2>
     <div class="pills">${quick.map((r) => `<a href="#/route/${esc(r.id)}">${esc(pick(r, 'name'))}</a>`).join('')}</div>
     <h2 class="sec">${t('home.next')}</h2>
