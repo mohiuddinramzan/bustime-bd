@@ -227,6 +227,29 @@ test('Firestore value encoding round-trips', () => {
   assert.deepEqual(fromFs(toFs(o)), o);
 });
 
+test('bus wizard builds valid records in the existing schema', async () => {
+  const { build, blank, stepErrors } = await import('../app/src/main/assets/www/js/bus-wizard-core.js');
+  const fs = await import('node:fs');
+  const ld = (f) => JSON.parse(fs.readFileSync(new URL('../app/src/main/assets/www/data/' + f + '.json', import.meta.url), 'utf8')).items;
+  const data = { buses: ld('buses'), routes: ld('routes'), schedules: ld('schedules'), counters: ld('counters') };
+  const s = { ...blank(), name: 'টেস্ট এক্সপ্রেস', operator: 'টেস্ট পরিবহন', routeMode: 'new', origin: 'dhaka', dest: 'sherpur', source: 'test', active: 'published',
+    sch: [{ direction: 'outbound', time: '07:30', days: ['sat', 'sun'] }, { direction: 'return', time: '15:00', days: ['sat'] }],
+    counters: [{ place: 'dhaka', name: 'ঢাকা কাউন্টার', address: 'গুলিস্তান', phone: '০১৭১২৩৪৫৬৭৮' }], sups: [{ name: 'রহিম', phone: '01712345678' }] };
+  assert.deepEqual(stepErrors(1, s, data), []);
+  assert.deepEqual(stepErrors(2, s, data), []);
+  assert.deepEqual(stepErrors(3, s, data), []);
+  assert.deepEqual(stepErrors(4, s, data), []);
+  const r = build(s, data);
+  assert.deepEqual(r.errors, []);
+  assert.equal(r.isNewRoute, false, 'existing dhaka>sherpur route is reused');
+  assert.equal(r.records.schedules.length, 2);
+  assert.equal(r.records.counters[0].phones[0].number, '01712345678');
+  const np = build({ ...s, newDest: 'নতুন স্থান', duration: '200' }, data);
+  assert.equal(np.isNewRoute, true);
+  assert.deepEqual(np.errors, []);
+  assert.ok(stepErrors(3, { ...s, sch: [{ direction: 'outbound', time: '', days: [] }] }, data).includes('time'));
+});
+
 await Promise.all(pending);
 console.log(`\n${pass} passed, ${failed} failed`);
 process.exit(failed ? 1 : 0);

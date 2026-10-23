@@ -9,6 +9,7 @@ import { isFirebaseConfigured, FirebaseAuthAdapter, FirebaseRepository } from '.
 import { validateRecord, validateDataset, validateBundle, findDuplicate, deleteBlockers, toBundle, ENTITIES } from './validate.js';
 import { saveJson, copyText } from './native.js';
 import { toast, confirmDialog } from './ui.js';
+import { wizardHtml, wizardBind, wizardLabel } from './bus-wizard.js';
 
 const repo = new JsonRepository();
 const $ = (s) => document.querySelector(s);
@@ -172,6 +173,7 @@ function dashboardPage() {
       ${errors.length || warnings.length ? `<div class="row"><span class="badge warn">${t('a.checks.errors', { n: errors.length })}</span><span class="badge">${t('a.checks.warnings', { n: warnings.length })}</span></div>` : `<span class="badge ok">${t('a.checks.ok')}</span>`}
       ${errors.slice(0, 15).map(line).join('')}${warnings.slice(0, 15).map(line).join('')}</section>
     <section class="card stack"><h2>${t('a.publish.title')}</h2>${st.provider?.can('publish') ? `<button class="btn block" data-action="fb-publish">${t('a.publish.btn')}</button>` : `<div class="notice">${t('a.publish.body')}</div>`}</section>
+    <a class="btn cta block" href="#/new-bus">${wizardLabel()}</a>
     <a class="btn block" href="#/data">${t('a.data')}</a>
     <button class="btn ghost block" data-action="logout">${t('a.logout')}</button></div>`;
 }
@@ -232,6 +234,7 @@ function render() {
   if (page === 'login') { location.hash = '#/'; return; }
   if (page === 'list' && ENT[a]) view.innerHTML = listPage(a);
   else if (page === 'edit' && ENT[a]) view.innerHTML = editPage(a, decodeURIComponent(b || 'new'));
+  else if (page === 'new-bus') view.innerHTML = wizardHtml(st.data);
   else if (page === 'data') view.innerHTML = dataPage();
   else view.innerHTML = dashboardPage();
 }
@@ -357,3 +360,5 @@ document.addEventListener('change', async (e) => {
 
 window.addEventListener('hashchange', () => { render(); window.scrollTo(0, 0); });
 load();
+
+wizardBind({ getData: () => st.data, render, persist, toast, clone, isActive: () => !!st.provider && location.hash.startsWith('#/new-bus') });

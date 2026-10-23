@@ -188,3 +188,14 @@ input:focus, select:focus, textarea:focus { outline: 0; border-color: var(--navy
 .tile .ic { width: 36px; height: 36px; padding: 8px; flex: none; border-radius: 12px; background: rgba(31, 79, 150, .22); color: #6fa3ee; }
 .tile b { display: block; font-size: .95rem; }
 .tile small { color: var(--muted); font-size: .75rem; }
+
+/* ---------- Add-bus wizard ---------- */
+.wz-steps { display: flex; gap: 6px; list-style: none; margin: 0; padding: 0; }
+.wz-steps li { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: .75rem; color: var(--muted); }
+.wz-steps b { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; border: 2px solid var(--line); background: var(--card); }
+.wz-steps li.on { color: var(--text); font-weight: 600; }
+.wz-steps li.on b { border-color: var(--amber); background: var(--amber); color: #201500; }
+.wz-steps li.done b { border-color: var(--navy-2); background: var(--navy-2); color: #fff; }
+.rowcard { display: grid; gap: 10px; padding: 12px; border: 1px dashed var(--line); border-radius: 14px; }
+.wz-nav { display: grid; grid-template-columns: 1fr 1.4fr; gap: 10px; }
+.wz-nav .btn[disabled] { opacity: .5; }
