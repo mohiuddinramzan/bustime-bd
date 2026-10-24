@@ -26,6 +26,14 @@ export async function copyText(text) {
     return ok;
   }
 }
+/** Opens the system share sheet (native bridge, then Web Share API, then clipboard). */
+export async function shareText(text) {
+  if (N && N.shareText) return !!N.shareText(text);
+  if (typeof navigator !== 'undefined' && navigator.share) {
+    try { await navigator.share({ text }); return true; } catch { return false; }
+  }
+  return copyText(text);
+}
 export const copyPhone = (raw) => copyText(formatPhone(raw));
 
 /** Returns a location string on success, '' on failure. */

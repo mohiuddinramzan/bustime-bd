@@ -5,7 +5,7 @@ import { store } from './store.js';
 import { JsonRepository, KEYS } from './repository.js';
 import { buildIndex, buildAliasIndex, searchEntries, applyFilters, nextDepartures, listOptions } from './search.js';
 import { isFirebaseConfigured, FirebaseRepository } from './firebase-adapter.js';
-import { callNumber, copyPhone } from './native.js';
+import { callNumber, copyPhone, copyText, shareText } from './native.js';
 import { toast, confirmDialog } from './ui.js';
 
 const repo = new JsonRepository();
@@ -117,6 +117,9 @@ function filterFields() {
   return `<div class="grid2">${selectHtml('origin', t('f.origin'), o.origins.map((p) => [p.id, loc(p)]), f.origin)}
     ${selectHtml('destination', t('f.destination'), o.destinations.map((p) => [p.id, loc(p)]), f.destination)}</div>`;
 }
+
+const DEFAULT_SHARE_URL = 'https://github.com/mohiuddinramzan/bustime-bd/releases/latest';
+const shareUrl = () => { const u = app.data?.config?.shareUrl; return typeof u === 'string' && /^https:\/\/\S+$/.test(u) ? u : DEFAULT_SHARE_URL; };
 
 /* ---------- pages ---------- */
 const pages = {
@@ -236,7 +239,11 @@ const pages = {
       <div class="muted">${t('settings.version')}: ${esc(num(c.dataVersion))}</div>
       <div class="muted">${t('lastUpdated')}: ${esc(formatDate(c.dataUpdated))}</div>
       <div class="muted">${t('settings.mode')}: ${t('src.' + m.source)}</div>
-      <div class="muted">${t('settings.firebase')}: ${t('settings.firebase.off')}</div></section>
+      <div class="muted">${t('settings.firebase')}: ${isFirebaseConfigured() ? t('settings.firebase.on') : t('settings.firebase.off')}</div></section>
+    <section class="card stack"><h3>${t('settings.share')}</h3><div class="muted">${t('settings.share.body')}</div>
+      <div class="muted" dir="ltr" style="word-break:break-all">${esc(shareUrl())}</div>
+      <div class="row"><button type="button" class="btn cta" data-action="share-app">${t('settings.share.btn')}</button>
+      <button type="button" class="btn ghost" data-action="copy-link">${t('settings.share.copy')}</button></div></section>
     <section class="card stack"><div class="row">
       <button type="button" class="btn ghost" data-action="clear-recents">${t('settings.clearRecents')}</button>
       <button type="button" class="btn ghost" data-action="clear-favs">${t('settings.clearFavs')}</button></div>
@@ -312,6 +319,8 @@ document.addEventListener('click', async (ev) => {
       callNumber(d.num);
       break;
     }
+    case 'share-app': if (!(await shareText(`${t('share.msg')}\n${shareUrl()}`))) toast(t('copyFail')); break;
+    case 'copy-link': toast((await copyText(shareUrl())) ? t('copied') : t('copyFail')); break;
     case 'copy': toast((await copyPhone(d.num)) ? t('copied') : t('copyFail')); break;
     case 'retry': load(); break;
     case 'go-search': location.hash = '#/search'; break;

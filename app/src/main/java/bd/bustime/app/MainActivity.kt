@@ -160,6 +160,24 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        /** Opens the Android share sheet with plain text (the app download link). */
+        @JavascriptInterface
+        fun shareText(text: String): Boolean {
+            if (text.isBlank() || text.length > 2000) return false
+            runOnUiThread {
+                try {
+                    val send = Intent(Intent.ACTION_SEND).apply {
+                        type = "text/plain"
+                        putExtra(Intent.EXTRA_TEXT, text)
+                    }
+                    startActivity(Intent.createChooser(send, null))
+                } catch (e: ActivityNotFoundException) {
+                    // no app can handle sharing
+                }
+            }
+            return true
+        }
+
         @JavascriptInterface
         fun dial(number: String): Boolean {
             if (!UrlPolicy.isDialable(number)) return false
