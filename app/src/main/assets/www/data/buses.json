@@ -3,108 +3,6 @@
   "description": "DEMO bus records. Not verified.",
   "items": [
     {
-      "id": "bus-demo-001",
-      "name_bn": "ডেমো এক্সপ্রেস",
-      "name_en": "Demo Express",
-      "operator_bn": "ডেমো পরিবহন এ",
-      "operator_en": "Demo Paribahan A",
-      "type": "AC",
-      "counterIds": [
-        "counter-dhaka-demo-1",
-        "counter-sreebardi-demo",
-        "counter-sherpur-demo"
-      ],
-      "supervisors": [
-        {
-          "name_bn": "ডেমো সুপারভাইজার ১",
-          "name_en": "Demo Supervisor 1",
-          "phone": "01000000011",
-          "demo": true
-        }
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "bus-demo-002",
-      "name_bn": "ডেমো সুপার",
-      "name_en": "Demo Super",
-      "operator_bn": "ডেমো পরিবহন বি",
-      "operator_en": "Demo Paribahan B",
-      "type": "NON_AC",
-      "counterIds": [
-        "counter-dhaka-demo-1",
-        "counter-sreebardi-demo",
-        "counter-bakshiganj-demo"
-      ],
-      "supervisors": [
-        {
-          "name_bn": "ডেমো সুপারভাইজার ২",
-          "name_en": "Demo Supervisor 2",
-          "phone": "01000000012",
-          "demo": true
-        }
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "bus-demo-003",
-      "name_bn": "নমুনা ট্রাভেলস",
-      "name_en": "Sample Travels",
-      "operator_bn": "নমুনা ট্রাভেলস (ডেমো)",
-      "operator_en": "Sample Travels (demo)",
-      "type": "AC",
-      "counterIds": [
-        "counter-dhaka-demo-2",
-        "counter-bakshiganj-demo"
-      ],
-      "supervisors": [
-        {
-          "name_bn": "ডেমো সুপারভাইজার ৩",
-          "name_en": "Demo Supervisor 3",
-          "phone": "01000000013",
-          "demo": true
-        }
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "bus-demo-004",
-      "name_bn": "ড্রাফট বাস",
-      "name_en": "Draft Bus",
-      "operator_bn": "ড্রাফট অপারেটর",
-      "operator_en": "Draft Operator",
-      "type": "NON_AC",
-      "counterIds": [
-        "counter-dhaka-demo-1"
-      ],
-      "supervisors": [],
-      "status": "draft",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
       "id": "bus-sotota-express",
       "name_bn": "সততা এক্সপ্রেস",
       "name_en": "Sotota Express",
@@ -224,13 +122,20 @@
       "type": "AC",
       "counterIds": [
         "counter-fb-brtc-ac-a",
-        "counter-fb-brtc-ac-b"
+        "counter-fb-brtc-ac-b",
+        "counter-fb-brtc-ac-3"
       ],
       "supervisors": [
         {
           "name_bn": "সুপারভাইজার",
           "name_en": "Supervisor",
           "phone": "01758836943",
+          "demo": false
+        },
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01714344862",
           "demo": false
         }
       ],
@@ -605,6 +510,1190 @@
         "source": "facebook-post-461540096431776 (unverified)"
       },
       "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-018",
+      "name_bn": "রকেট",
+      "name_en": "রকেট",
+      "operator_bn": "রকেট",
+      "operator_en": "রকেট",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-018-1",
+        "counter-xl-018-2",
+        "counter-xl-018-3",
+        "counter-xl-018-4",
+        "counter-xl-018-5",
+        "counter-xl-018-6",
+        "counter-xl-018-7"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01770623686",
+          "demo": false
+        },
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01770623687",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-019",
+      "name_bn": "রকেট প্লাস",
+      "name_en": "রকেট প্লাস",
+      "operator_bn": "রকেট প্লাস",
+      "operator_en": "রকেট প্লাস",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-019-1"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01760447233",
+          "demo": false
+        },
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01760447234",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-020",
+      "name_bn": "সীমান্ত এক্সপ্রেস",
+      "name_en": "সীমান্ত এক্সপ্রেস",
+      "operator_bn": "সীমান্ত এক্সপ্রেস",
+      "operator_en": "সীমান্ত এক্সপ্রেস",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-020-1",
+        "counter-xl-020-2"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-021",
+      "name_bn": "হিমেল সিমান্ত",
+      "name_en": "হিমেল সিমান্ত",
+      "operator_bn": "হিমেল সিমান্ত",
+      "operator_en": "হিমেল সিমান্ত",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-021-1",
+        "counter-xl-021-2",
+        "counter-xl-021-3"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01760446661",
+          "demo": false
+        },
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01760446662",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-022",
+      "name_bn": "জালালাবাদ",
+      "name_en": "জালালাবাদ",
+      "operator_bn": "জালালাবাদ",
+      "operator_en": "জালালাবাদ",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-022-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-023",
+      "name_bn": "মধুমতি",
+      "name_en": "মধুমতি",
+      "operator_bn": "মধুমতি",
+      "operator_en": "মধুমতি",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-023-1",
+        "counter-xl-023-2"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01308301548",
+          "demo": false
+        },
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01308301549",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-024",
+      "name_bn": "SK Jonony",
+      "name_en": "SK Jonony",
+      "operator_bn": "SK Jonony",
+      "operator_en": "SK Jonony",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-024-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-025",
+      "name_bn": "প্রতিনিধি",
+      "name_en": "প্রতিনিধি",
+      "operator_bn": "প্রতিনিধি",
+      "operator_en": "প্রতিনিধি",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-025-1",
+        "counter-xl-025-2",
+        "counter-xl-025-3",
+        "counter-xl-025-4",
+        "counter-xl-025-5",
+        "counter-xl-025-6"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01714822473",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-026",
+      "name_bn": "জনতা মিতালী",
+      "name_en": "জনতা মিতালী",
+      "operator_bn": "জনতা মিতালী",
+      "operator_en": "জনতা মিতালী",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-026-1",
+        "counter-xl-026-2",
+        "counter-xl-026-3",
+        "counter-xl-026-4",
+        "counter-xl-026-5",
+        "counter-xl-026-6",
+        "counter-xl-026-7"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01767621448",
+          "demo": false
+        },
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "00183771681",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-027",
+      "name_bn": "শামীম এন্টারপ্রাইজ",
+      "name_en": "শামীম এন্টারপ্রাইজ",
+      "operator_bn": "শামীম এন্টারপ্রাইজ",
+      "operator_en": "শামীম এন্টারপ্রাইজ",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-027-1",
+        "counter-xl-027-2",
+        "counter-xl-027-3"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-029",
+      "name_bn": "মনিমুক্তা-২",
+      "name_en": "মনিমুক্তা-২",
+      "operator_bn": "মনিমুক্তা-২",
+      "operator_en": "মনিমুক্তা-২",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-029-1",
+        "counter-xl-029-2",
+        "counter-xl-029-3"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01737911411",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-031",
+      "name_bn": "হাওলাদার ট্রাভেলস",
+      "name_en": "হাওলাদার ট্রাভেলস",
+      "operator_bn": "হাওলাদার ট্রাভেলস",
+      "operator_en": "হাওলাদার ট্রাভেলস",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-031-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-032",
+      "name_bn": "হাজী 1J কোচ",
+      "name_en": "হাজী 1J কোচ",
+      "operator_bn": "হাজী 1J কোচ",
+      "operator_en": "হাজী 1J কোচ",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-032-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-033",
+      "name_bn": "হাজী এন্টারপ্রাইজ",
+      "name_en": "হাজী এন্টারপ্রাইজ",
+      "operator_bn": "হাজী এন্টারপ্রাইজ",
+      "operator_en": "হাজী এন্টারপ্রাইজ",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-033-1"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01715216152",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-035",
+      "name_bn": "হ্যাভেন ক্লাসিক",
+      "name_en": "হ্যাভেন ক্লাসিক",
+      "operator_bn": "হ্যাভেন ক্লাসিক",
+      "operator_en": "হ্যাভেন ক্লাসিক",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-035-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-036",
+      "name_bn": "ভূইয়া পরিবহন",
+      "name_en": "ভূইয়া পরিবহন",
+      "operator_bn": "ভূইয়া পরিবহন",
+      "operator_en": "ভূইয়া পরিবহন",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-036-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-037",
+      "name_bn": "মেট্রো লাইন",
+      "name_en": "মেট্রো লাইন",
+      "operator_bn": "মেট্রো লাইন",
+      "operator_en": "মেট্রো লাইন",
+      "type": "NON_AC",
+      "counterIds": [],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-038",
+      "name_bn": "শামীম এন্টারপ্রাইজ চেয়ারকোচ",
+      "name_en": "শামীম এন্টারপ্রাইজ চেয়ারকোচ",
+      "operator_bn": "শামীম এন্টারপ্রাইজ চেয়ারকোচ",
+      "operator_en": "শামীম এন্টারপ্রাইজ চেয়ারকোচ",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-038-1",
+        "counter-xl-038-2"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-039",
+      "name_bn": "সাহা ট্রাভেলস",
+      "name_en": "সাহা ট্রাভেলস",
+      "operator_bn": "সাহা ট্রাভেলস",
+      "operator_en": "সাহা ট্রাভেলস",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-039-1",
+        "counter-xl-039-2"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-040",
+      "name_bn": "ক্রাউন ডিলাক্স",
+      "name_en": "ক্রাউন ডিলাক্স",
+      "operator_bn": "ক্রাউন ডিলাক্স",
+      "operator_en": "ক্রাউন ডিলাক্স",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-040-1",
+        "counter-xl-040-2"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-041",
+      "name_bn": "বাবুল",
+      "name_en": "বাবুল",
+      "operator_bn": "বাবুল",
+      "operator_en": "বাবুল",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-041-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-042",
+      "name_bn": "রাজু",
+      "name_en": "রাজু",
+      "operator_bn": "রাজু",
+      "operator_en": "রাজু",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-042-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-043",
+      "name_bn": "আশিক",
+      "name_en": "আশিক",
+      "operator_bn": "আশিক",
+      "operator_en": "আশিক",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-043-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-044",
+      "name_bn": "বিলাস পরিবহন",
+      "name_en": "বিলাস পরিবহন",
+      "operator_bn": "বিলাস পরিবহন",
+      "operator_en": "বিলাস পরিবহন",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-044-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-045",
+      "name_bn": "শেরপুর ট্রাভেলস",
+      "name_en": "শেরপুর ট্রাভেলস",
+      "operator_bn": "শেরপুর ট্রাভেলস",
+      "operator_en": "শেরপুর ট্রাভেলস",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-045-1",
+        "counter-xl-045-2",
+        "counter-xl-045-3"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-046",
+      "name_bn": "এম.ডি. সুপার",
+      "name_en": "এম.ডি. সুপার",
+      "operator_bn": "এম.ডি. সুপার",
+      "operator_en": "এম.ডি. সুপার",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-046-1",
+        "counter-xl-046-2"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-047",
+      "name_bn": "সুবর্ণা এক্সপ্রেস",
+      "name_en": "সুবর্ণা এক্সপ্রেস",
+      "operator_bn": "সুবর্ণা এক্সপ্রেস",
+      "operator_en": "সুবর্ণা এক্সপ্রেস",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-047-1",
+        "counter-xl-047-2",
+        "counter-xl-047-3"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01717028055",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-048",
+      "name_bn": "FZ Line",
+      "name_en": "FZ Line",
+      "operator_bn": "FZ Line",
+      "operator_en": "FZ Line",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-048-1"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01730483171",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-049",
+      "name_bn": "সিয়াম এন্টারপ্রাইজ",
+      "name_en": "সিয়াম এন্টারপ্রাইজ",
+      "operator_bn": "সিয়াম এন্টারপ্রাইজ",
+      "operator_en": "সিয়াম এন্টারপ্রাইজ",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-049-1"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01974021229",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-050",
+      "name_bn": "রুপা",
+      "name_en": "রুপা",
+      "operator_bn": "রুপা",
+      "operator_en": "রুপা",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-050-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-051",
+      "name_bn": "অবকাশ এক্সপ্রেস",
+      "name_en": "অবকাশ এক্সপ্রেস",
+      "operator_bn": "অবকাশ এক্সপ্রেস",
+      "operator_en": "অবকাশ এক্সপ্রেস",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-051-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-052",
+      "name_bn": "তাকিফ ট্রাভেলস",
+      "name_en": "তাকিফ ট্রাভেলস",
+      "operator_bn": "তাকিফ ট্রাভেলস",
+      "operator_en": "তাকিফ ট্রাভেলস",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-052-1",
+        "counter-xl-052-2"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-053",
+      "name_bn": "S.B Gourab Paribahan",
+      "name_en": "S.B Gourab Paribahan",
+      "operator_bn": "S.B Gourab Paribahan",
+      "operator_en": "S.B Gourab Paribahan",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-053-1",
+        "counter-xl-053-2",
+        "counter-xl-053-3",
+        "counter-xl-053-4"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01781904411",
+          "demo": false
+        },
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01781904433",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-054",
+      "name_bn": "রকেট লাইন",
+      "name_en": "রকেট লাইন",
+      "operator_bn": "রকেট লাইন",
+      "operator_en": "রকেট লাইন",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-054-1",
+        "counter-xl-054-2",
+        "counter-xl-054-3",
+        "counter-xl-054-4",
+        "counter-xl-054-5",
+        "counter-xl-054-6",
+        "counter-xl-054-7",
+        "counter-xl-054-8",
+        "counter-xl-054-9"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01730483114",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-055",
+      "name_bn": "মাহী এন্টারপ্রাইজ",
+      "name_en": "মাহী এন্টারপ্রাইজ",
+      "operator_bn": "মাহী এন্টারপ্রাইজ",
+      "operator_en": "মাহী এন্টারপ্রাইজ",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-055-1"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01732853517",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-056",
+      "name_bn": "শিবু এক্সপ্রেস",
+      "name_en": "শিবু এক্সপ্রেস",
+      "operator_bn": "শিবু এক্সপ্রেস",
+      "operator_en": "শিবু এক্সপ্রেস",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-056-1"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01736030462",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-057",
+      "name_bn": "পদ্মা লাইন",
+      "name_en": "পদ্মা লাইন",
+      "operator_bn": "পদ্মা লাইন",
+      "operator_en": "পদ্মা লাইন",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-057-1",
+        "counter-xl-057-2",
+        "counter-xl-057-3",
+        "counter-xl-057-4",
+        "counter-xl-057-5",
+        "counter-xl-057-6",
+        "counter-xl-057-7",
+        "counter-xl-057-8"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01315481442",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-058",
+      "name_bn": "মায়ের আঁচল এক্সপ্রেস",
+      "name_en": "মায়ের আঁচল এক্সপ্রেস",
+      "operator_bn": "মায়ের আঁচল এক্সপ্রেস",
+      "operator_en": "মায়ের আঁচল এক্সপ্রেস",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-058-1",
+        "counter-xl-058-2",
+        "counter-xl-058-3"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-059",
+      "name_bn": "আনিকা আদিবা",
+      "name_en": "আনিকা আদিবা",
+      "operator_bn": "আনিকা আদিবা",
+      "operator_en": "আনিকা আদিবা",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-059-1",
+        "counter-xl-059-2",
+        "counter-xl-059-3",
+        "counter-xl-059-4"
+      ],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01716567834",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-060",
+      "name_bn": "জাবির",
+      "name_en": "জাবির",
+      "operator_bn": "জাবির",
+      "operator_en": "জাবির",
+      "type": "NON_AC",
+      "counterIds": [],
+      "supervisors": [
+        {
+          "name_bn": "সুপারভাইজার",
+          "name_en": "Supervisor",
+          "phone": "01904992500",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-061",
+      "name_bn": "মোজাদেদ্দীয়া",
+      "name_en": "মোজাদেদ্দীয়া",
+      "operator_bn": "মোজাদেদ্দীয়া",
+      "operator_en": "মোজাদেদ্দীয়া",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-061-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-062",
+      "name_bn": "প্রাইম ক্লাসিক",
+      "name_en": "প্রাইম ক্লাসিক",
+      "operator_bn": "প্রাইম ক্লাসিক",
+      "operator_en": "প্রাইম ক্লাসিক",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-062-1",
+        "counter-xl-062-2",
+        "counter-xl-062-3"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-063",
+      "name_bn": "শ্রীবরদী বহুমুখী শিল্প ও বণিক সমিতি",
+      "name_en": "শ্রীবরদী বহুমুখী শিল্প ও বণিক সমিতি",
+      "operator_bn": "শ্রীবরদী বহুমুখী শিল্প ও বণিক সমিতি",
+      "operator_en": "শ্রীবরদী বহুমুখী শিল্প ও বণিক সমিতি",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-063-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-064",
+      "name_bn": "মোরাদ-মহিমা",
+      "name_en": "মোরাদ-মহিমা",
+      "operator_bn": "মোরাদ-মহিমা",
+      "operator_en": "মোরাদ-মহিমা",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-064-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-065",
+      "name_bn": "জে কে এন্টারপ্রাইজ",
+      "name_en": "জে কে এন্টারপ্রাইজ",
+      "operator_bn": "জে কে এন্টারপ্রাইজ",
+      "operator_en": "জে কে এন্টারপ্রাইজ",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-065-1"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-066",
+      "name_bn": "সিহাব এক্সক্লুসিভ",
+      "name_en": "সিহাব এক্সক্লুসিভ",
+      "operator_bn": "সিহাব এক্সক্লুসিভ",
+      "operator_en": "সিহাব এক্সক্লুসিভ",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-066-1",
+        "counter-xl-066-2"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-067",
+      "name_bn": "মোফাখখার এন্টারপ্রাইজ",
+      "name_en": "মোফাখখার এন্টারপ্রাইজ",
+      "operator_bn": "মোফাখখার এন্টারপ্রাইজ",
+      "operator_en": "মোফাখখার এন্টারপ্রাইজ",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-067-1",
+        "counter-xl-067-2"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-070",
+      "name_bn": "রিফাত পরিবহন",
+      "name_en": "রিফাত পরিবহন",
+      "operator_bn": "রিফাত পরিবহন",
+      "operator_en": "রিফাত পরিবহন",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-070-1",
+        "counter-xl-070-2",
+        "counter-xl-070-3"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-071",
+      "name_bn": "মা মণি পরিবহন",
+      "name_en": "মা মণি পরিবহন",
+      "operator_bn": "মা মণি পরিবহন",
+      "operator_en": "মা মণি পরিবহন",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-071-1",
+        "counter-xl-071-2",
+        "counter-xl-071-3"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "bus-xl-072",
+      "name_bn": "পলি পরিবহন",
+      "name_en": "পলি পরিবহন",
+      "operator_bn": "পলি পরিবহন",
+      "operator_en": "পলি পরিবহন",
+      "type": "NON_AC",
+      "counterIds": [
+        "counter-xl-072-1",
+        "counter-xl-072-2",
+        "counter-xl-072-3",
+        "counter-xl-072-4",
+        "counter-xl-072-5",
+        "counter-xl-072-6",
+        "counter-xl-072-7",
+        "counter-xl-072-8",
+        "counter-xl-072-9",
+        "counter-xl-072-10",
+        "counter-xl-072-11",
+        "counter-xl-072-12"
+      ],
+      "supervisors": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
     }
   ]
 }

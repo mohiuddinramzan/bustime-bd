@@ -36,8 +36,12 @@ function test(name, fn) {
 
 test('dataset is valid', () => assert.deepEqual(validateDataset(data).errors, []));
 test('drafts/archived are hidden from users', () => {
-  assert.ok(data.schedules.some((s) => s.status !== 'published'), 'demo has a draft schedule');
-  assert.ok(index.length < data.schedules.length);
+  const d2 = structuredClone(data);
+  d2.schedules[0].status = 'draft';
+  d2.schedules[1].status = 'archived';
+  const idx2 = buildIndex(d2);
+  assert.ok(idx2.length < buildIndex(data).length);
+  assert.ok(idx2.every((e) => e.s.status === 'published' && e.b.status === 'published'));
   assert.ok(index.every((e) => e.s.status === 'published' && e.b.status === 'published'));
 });
 
@@ -50,11 +54,11 @@ test('normalization: Bengali digits, vowel/spelling variants', () => {
 test('search: Bengali, English and alias spellings find the same route', () => {
   for (const term of ['শ্রীবরদী', 'sreebardi', 'Shribordi', 'sribardi', 'শ্রীবর্দী']) {
     const r = routeIds(q(term));
-    assert.ok(r.has('route-dhaka-sreebardi') && !r.has('route-dhaka-bakshiganj') && !r.has('route-dhaka-sherpur'), term);
+    assert.ok(r.has('route-dhaka-sreebardi') && !r.has('route-sotota-dhaka-bakshiganj') && !r.has('route-fb-sherpur-dhaka'), term);
   }
   for (const term of ['bakshiganj', 'বকশীগঞ্জ']) {
     const r = routeIds(q(term));
-    assert.ok(r.has('route-dhaka-bakshiganj') && !r.has('route-dhaka-sreebardi') && !r.has('route-dhaka-sherpur'), term);
+    assert.ok(r.has('route-sotota-dhaka-bakshiganj') && !r.has('route-dhaka-sreebardi') && !r.has('route-fb-sherpur-dhaka'), term);
   }
 });
 test('search: fuzzy typo (distance 1) and multi-word', () => {
@@ -62,10 +66,10 @@ test('search: fuzzy typo (distance 1) and multi-word', () => {
   assert.ok(q('dhaka sreebardi').length > 0);
 });
 test('search: bus name, operator, counter name, address', () => {
-  assert.ok(q('Demo Express').every((e) => e.b.id === 'bus-demo-001') && q('Demo Express').length > 0);
-  assert.ok(q('ডেমো পরিবহন এ').length > 0);
-  assert.ok(q('counter sreebardi').length > 0);
-  assert.ok(q('ডেমো ঠিকানা').length > 0);
+  assert.ok(q('সাদিকা').some((e) => e.b.id === 'bus-fb-sadika-1'));
+  assert.ok(q('Moon-Raj').some((e) => e.b.id === 'bus-fb-moon-raj'));
+  assert.ok(q('counter sherpur').length > 0);
+  assert.ok(q('মহাখালী').length > 0);
 });
 test('search: phone number in several forms', () => {
   const c = data.counters.find((x) => x.status === 'published' && x.phones.length);

@@ -3,316 +3,6 @@
   "description": "DEMO schedules. Times are placeholders, not real.",
   "items": [
     {
-      "id": "sch-demo-001",
-      "busId": "bus-demo-001",
-      "routeId": "route-dhaka-sreebardi",
-      "direction": "outbound",
-      "departureTime": "07:00",
-      "counterId": "counter-dhaka-demo-1",
-      "operatingDays": [
-        "sun",
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat"
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "sch-demo-002",
-      "busId": "bus-demo-001",
-      "routeId": "route-dhaka-sreebardi",
-      "direction": "return",
-      "departureTime": "14:00",
-      "counterId": "counter-sreebardi-demo",
-      "operatingDays": [
-        "sun",
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat"
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "sch-demo-003",
-      "busId": "bus-demo-001",
-      "routeId": "route-dhaka-sreebardi",
-      "direction": "outbound",
-      "departureTime": "22:30",
-      "counterId": "counter-dhaka-demo-1",
-      "operatingDays": [
-        "sun",
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat"
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "sch-demo-004",
-      "busId": "bus-demo-002",
-      "routeId": "route-dhaka-sreebardi",
-      "direction": "outbound",
-      "departureTime": "09:15",
-      "counterId": "counter-dhaka-demo-1",
-      "operatingDays": [
-        "sun",
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "sat"
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "sch-demo-005",
-      "busId": "bus-demo-002",
-      "routeId": "route-dhaka-sreebardi",
-      "direction": "return",
-      "departureTime": "21:00",
-      "counterId": "counter-sreebardi-demo",
-      "operatingDays": [
-        "sun",
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "sat"
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "sch-demo-006",
-      "busId": "bus-demo-003",
-      "routeId": "route-dhaka-bakshiganj",
-      "direction": "outbound",
-      "departureTime": "08:30",
-      "counterId": "counter-dhaka-demo-2",
-      "operatingDays": [
-        "sun",
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat"
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "sch-demo-007",
-      "busId": "bus-demo-003",
-      "routeId": "route-dhaka-bakshiganj",
-      "direction": "return",
-      "departureTime": "15:45",
-      "counterId": "counter-bakshiganj-demo",
-      "operatingDays": [
-        "sun",
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat"
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "sch-demo-008",
-      "busId": "bus-demo-003",
-      "routeId": "route-dhaka-bakshiganj",
-      "direction": "outbound",
-      "departureTime": "23:00",
-      "counterId": "counter-dhaka-demo-2",
-      "operatingDays": [
-        "sun",
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat"
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "sch-demo-009",
-      "busId": "bus-demo-002",
-      "routeId": "route-dhaka-bakshiganj",
-      "direction": "outbound",
-      "departureTime": "06:15",
-      "counterId": "counter-dhaka-demo-1",
-      "operatingDays": [
-        "sun",
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat"
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "sch-demo-010",
-      "busId": "bus-demo-002",
-      "routeId": "route-dhaka-bakshiganj",
-      "direction": "return",
-      "departureTime": "05:30",
-      "counterId": "counter-bakshiganj-demo",
-      "operatingDays": [
-        "sun",
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat"
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "sch-demo-011",
-      "busId": "bus-demo-001",
-      "routeId": "route-dhaka-sherpur",
-      "direction": "outbound",
-      "departureTime": "12:00",
-      "counterId": "counter-dhaka-demo-1",
-      "operatingDays": [
-        "sun",
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat"
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "sch-demo-012",
-      "busId": "bus-demo-001",
-      "routeId": "route-dhaka-sherpur",
-      "direction": "return",
-      "departureTime": "18:30",
-      "counterId": "counter-sherpur-demo",
-      "operatingDays": [
-        "sun",
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat"
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "sch-demo-013",
-      "busId": "bus-demo-004",
-      "routeId": "route-dhaka-sreebardi",
-      "direction": "outbound",
-      "departureTime": "10:00",
-      "counterId": "counter-dhaka-demo-1",
-      "operatingDays": [
-        "sun",
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat"
-      ],
-      "status": "draft",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
       "id": "sch-sotota-001",
       "busId": "bus-sotota-express",
       "routeId": "route-sotota-dhaka-bakshiganj",
@@ -1243,6 +933,2062 @@
         "source": "facebook-post-461540096431776 (unverified) – operating days assumed daily"
       },
       "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-018-1",
+      "busId": "bus-xl-018",
+      "routeId": "route-sherpur-p-7eeaae25",
+      "direction": "outbound",
+      "departureTime": "23:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-018-1"
+    },
+    {
+      "id": "sch-xl-019-2",
+      "busId": "bus-xl-019",
+      "routeId": "route-sherpur-p-7eeaae25",
+      "direction": "outbound",
+      "departureTime": "23:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-019-1"
+    },
+    {
+      "id": "sch-xl-019-3",
+      "busId": "bus-xl-019",
+      "routeId": "route-sherpur-p-7eeaae25",
+      "direction": "return",
+      "departureTime": "21:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-023-4",
+      "busId": "bus-xl-023",
+      "routeId": "route-sherpur-sylhet",
+      "direction": "outbound",
+      "departureTime": "07:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-023-1"
+    },
+    {
+      "id": "sch-xl-023-5",
+      "busId": "bus-xl-023",
+      "routeId": "route-sherpur-sylhet",
+      "direction": "return",
+      "departureTime": "22:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-023-2"
+    },
+    {
+      "id": "sch-xl-025-6",
+      "busId": "bus-xl-025",
+      "routeId": "route-sherpur-chattogram",
+      "direction": "outbound",
+      "departureTime": "19:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-025-1"
+    },
+    {
+      "id": "sch-xl-025-7",
+      "busId": "bus-xl-025",
+      "routeId": "route-sherpur-chattogram",
+      "direction": "return",
+      "departureTime": "19:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-026-8",
+      "busId": "bus-xl-026",
+      "routeId": "route-sherpur-chattogram",
+      "direction": "outbound",
+      "departureTime": "19:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-026-1"
+    },
+    {
+      "id": "sch-xl-026-9",
+      "busId": "bus-xl-026",
+      "routeId": "route-sherpur-chattogram",
+      "direction": "return",
+      "departureTime": "19:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-028-10",
+      "busId": "bus-xl-027",
+      "routeId": "route-sherpur-cox-s-bazar",
+      "direction": "outbound",
+      "departureTime": "18:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-027-1"
+    },
+    {
+      "id": "sch-xl-028-11",
+      "busId": "bus-xl-027",
+      "routeId": "route-sherpur-cox-s-bazar",
+      "direction": "return",
+      "departureTime": "15:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-027-3"
+    },
+    {
+      "id": "sch-xl-029-12",
+      "busId": "bus-xl-029",
+      "routeId": "route-dhaka-nonni",
+      "direction": "return",
+      "departureTime": "23:20",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-029-1"
+    },
+    {
+      "id": "sch-xl-029-13",
+      "busId": "bus-xl-029",
+      "routeId": "route-dhaka-nonni",
+      "direction": "outbound",
+      "departureTime": "10:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-030-14",
+      "busId": "bus-fb-brtc-ac",
+      "routeId": "route-nonni-mirpur",
+      "direction": "outbound",
+      "departureTime": "09:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-fb-brtc-ac-3"
+    },
+    {
+      "id": "sch-xl-030-15",
+      "busId": "bus-fb-brtc-ac",
+      "routeId": "route-nonni-mirpur",
+      "direction": "return",
+      "departureTime": "21:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-031-16",
+      "busId": "bus-xl-031",
+      "routeId": "route-dhaka-nonni",
+      "direction": "return",
+      "departureTime": "04:40",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-032-17",
+      "busId": "bus-xl-032",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "return",
+      "departureTime": "12:25",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-032-18",
+      "busId": "bus-xl-032",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "outbound",
+      "departureTime": "06:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-032-1"
+    },
+    {
+      "id": "sch-xl-033-19",
+      "busId": "bus-xl-033",
+      "routeId": "route-dhaka-nonni",
+      "direction": "return",
+      "departureTime": "23:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-033-1"
+    },
+    {
+      "id": "sch-xl-033-20",
+      "busId": "bus-xl-033",
+      "routeId": "route-dhaka-nonni",
+      "direction": "outbound",
+      "departureTime": "08:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-034-21",
+      "busId": "bus-xl-029",
+      "routeId": "route-dhaka-nonni",
+      "direction": "return",
+      "departureTime": "23:15",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-029-1"
+    },
+    {
+      "id": "sch-xl-035-22",
+      "busId": "bus-xl-035",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "return",
+      "departureTime": "11:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-035-23",
+      "busId": "bus-xl-035",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "outbound",
+      "departureTime": "18:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-035-1"
+    },
+    {
+      "id": "sch-xl-036-24",
+      "busId": "bus-xl-036",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "return",
+      "departureTime": "12:50",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-036-25",
+      "busId": "bus-xl-036",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "outbound",
+      "departureTime": "18:25",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-036-1"
+    },
+    {
+      "id": "sch-xl-037-26",
+      "busId": "bus-xl-037",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "return",
+      "departureTime": "15:10",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-037-27",
+      "busId": "bus-xl-037",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "outbound",
+      "departureTime": "08:50",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-038-28",
+      "busId": "bus-xl-038",
+      "routeId": "route-nonni-mirpur-10",
+      "direction": "outbound",
+      "departureTime": "10:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-038-1"
+    },
+    {
+      "id": "sch-xl-039-29",
+      "busId": "bus-xl-039",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "return",
+      "departureTime": "07:45",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-039-30",
+      "busId": "bus-xl-039",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "outbound",
+      "departureTime": "14:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-039-1"
+    },
+    {
+      "id": "sch-xl-040-31",
+      "busId": "bus-xl-040",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "return",
+      "departureTime": "13:15",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-040-32",
+      "busId": "bus-xl-040",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "outbound",
+      "departureTime": "06:50",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-040-1"
+    },
+    {
+      "id": "sch-xl-041-33",
+      "busId": "bus-xl-041",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "return",
+      "departureTime": "16:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-041-34",
+      "busId": "bus-xl-041",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "outbound",
+      "departureTime": "10:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-041-1"
+    },
+    {
+      "id": "sch-xl-042-35",
+      "busId": "bus-xl-042",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "return",
+      "departureTime": "14:10",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-042-36",
+      "busId": "bus-xl-042",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "outbound",
+      "departureTime": "07:50",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-042-1"
+    },
+    {
+      "id": "sch-xl-043-37",
+      "busId": "bus-xl-043",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "return",
+      "departureTime": "13:15",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-043-38",
+      "busId": "bus-xl-043",
+      "routeId": "route-dhaka-p-206bd6fa",
+      "direction": "outbound",
+      "departureTime": "06:50",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-043-1"
+    },
+    {
+      "id": "sch-xl-044-39",
+      "busId": "bus-xl-044",
+      "routeId": "route-p-206bd6fa-p-7eeaae25",
+      "direction": "outbound",
+      "departureTime": "22:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-044-1"
+    },
+    {
+      "id": "sch-xl-044-40",
+      "busId": "bus-xl-044",
+      "routeId": "route-p-206bd6fa-p-7eeaae25",
+      "direction": "return",
+      "departureTime": "22:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-046-41",
+      "busId": "bus-xl-046",
+      "routeId": "route-sherpur-p-bff17336",
+      "direction": "return",
+      "departureTime": "06:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-047-42",
+      "busId": "bus-xl-047",
+      "routeId": "route-dhaka-jhenaigati",
+      "direction": "return",
+      "departureTime": "23:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-047-1"
+    },
+    {
+      "id": "sch-xl-049-43",
+      "busId": "bus-xl-049",
+      "routeId": "route-dhaka-jhenaigati",
+      "direction": "return",
+      "departureTime": "22:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-049-44",
+      "busId": "bus-xl-049",
+      "routeId": "route-dhaka-jhenaigati",
+      "direction": "outbound",
+      "departureTime": "06:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-049-1"
+    },
+    {
+      "id": "sch-xl-050-45",
+      "busId": "bus-xl-050",
+      "routeId": "route-dhaka-jhenaigati",
+      "direction": "return",
+      "departureTime": "09:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-050-46",
+      "busId": "bus-xl-050",
+      "routeId": "route-dhaka-jhenaigati",
+      "direction": "outbound",
+      "departureTime": "18:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-050-1"
+    },
+    {
+      "id": "sch-xl-051-47",
+      "busId": "bus-xl-051",
+      "routeId": "route-dhaka-jhenaigati",
+      "direction": "return",
+      "departureTime": "09:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-051-48",
+      "busId": "bus-xl-051",
+      "routeId": "route-dhaka-jhenaigati",
+      "direction": "outbound",
+      "departureTime": "17:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-051-1"
+    },
+    {
+      "id": "sch-xl-052-49",
+      "busId": "bus-xl-052",
+      "routeId": "route-dhaka-jhenaigati",
+      "direction": "return",
+      "departureTime": "12:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-052-50",
+      "busId": "bus-xl-052",
+      "routeId": "route-dhaka-jhenaigati",
+      "direction": "outbound",
+      "departureTime": "01:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-052-1"
+    },
+    {
+      "id": "sch-xl-054-51",
+      "busId": "bus-xl-054",
+      "routeId": "route-jhenaigati-p-7eeaae25-munshiganj",
+      "direction": "outbound",
+      "departureTime": "22:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-054-1"
+    },
+    {
+      "id": "sch-xl-055-52",
+      "busId": "bus-xl-055",
+      "routeId": "route-jhenaigati-p-bff17336",
+      "direction": "outbound",
+      "departureTime": "12:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-055-1"
+    },
+    {
+      "id": "sch-xl-055-53",
+      "busId": "bus-xl-055",
+      "routeId": "route-jhenaigati-p-bff17336",
+      "direction": "return",
+      "departureTime": "04:10",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-056-54",
+      "busId": "bus-xl-056",
+      "routeId": "route-jhenaigati-p-bff17336",
+      "direction": "outbound",
+      "departureTime": "12:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-056-1"
+    },
+    {
+      "id": "sch-xl-056-55",
+      "busId": "bus-xl-056",
+      "routeId": "route-jhenaigati-p-bff17336",
+      "direction": "return",
+      "departureTime": "04:40",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-057-56",
+      "busId": "bus-xl-057",
+      "routeId": "route-jhenaigati-p-bff17336-savar",
+      "direction": "outbound",
+      "departureTime": "22:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-057-1"
+    },
+    {
+      "id": "sch-xl-057-57",
+      "busId": "bus-xl-057",
+      "routeId": "route-jhenaigati-p-bff17336-savar",
+      "direction": "return",
+      "departureTime": "05:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-057-8"
+    },
+    {
+      "id": "sch-xl-058-58",
+      "busId": "bus-xl-058",
+      "routeId": "route-jhenaigati-p-bff17336",
+      "direction": "outbound",
+      "departureTime": "22:45",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-058-1"
+    },
+    {
+      "id": "sch-xl-058-59",
+      "busId": "bus-xl-058",
+      "routeId": "route-jhenaigati-p-bff17336",
+      "direction": "return",
+      "departureTime": "22:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-059-60",
+      "busId": "bus-xl-059",
+      "routeId": "route-jhenaigati-p-bff17336",
+      "direction": "outbound",
+      "departureTime": "08:20",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-059-1"
+    },
+    {
+      "id": "sch-xl-061-61",
+      "busId": "bus-xl-061",
+      "routeId": "route-dhaka-p-ee62b78f",
+      "direction": "return",
+      "departureTime": "22:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-061-62",
+      "busId": "bus-xl-061",
+      "routeId": "route-dhaka-p-ee62b78f",
+      "direction": "outbound",
+      "departureTime": "05:40",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-061-1"
+    },
+    {
+      "id": "sch-xl-062-63",
+      "busId": "bus-xl-062",
+      "routeId": "route-dhaka-sreebardi",
+      "direction": "outbound",
+      "departureTime": "07:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-062-3"
+    },
+    {
+      "id": "sch-xl-063-64",
+      "busId": "bus-xl-063",
+      "routeId": "route-dhaka-p-ee62b78f",
+      "direction": "return",
+      "departureTime": "07:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-063-65",
+      "busId": "bus-xl-063",
+      "routeId": "route-dhaka-p-ee62b78f",
+      "direction": "outbound",
+      "departureTime": "14:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-063-1"
+    },
+    {
+      "id": "sch-xl-064-66",
+      "busId": "bus-xl-064",
+      "routeId": "route-dhaka-p-ee62b78f",
+      "direction": "return",
+      "departureTime": "07:15",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-064-67",
+      "busId": "bus-xl-064",
+      "routeId": "route-dhaka-p-ee62b78f",
+      "direction": "outbound",
+      "departureTime": "15:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-064-1"
+    },
+    {
+      "id": "sch-xl-065-68",
+      "busId": "bus-xl-065",
+      "routeId": "route-dhaka-p-ee62b78f",
+      "direction": "return",
+      "departureTime": "09:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-065-69",
+      "busId": "bus-xl-065",
+      "routeId": "route-dhaka-p-ee62b78f",
+      "direction": "outbound",
+      "departureTime": "21:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-065-1"
+    },
+    {
+      "id": "sch-xl-066-70",
+      "busId": "bus-xl-066",
+      "routeId": "route-dhaka-sreebardi",
+      "direction": "outbound",
+      "departureTime": "10:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-066-1"
+    },
+    {
+      "id": "sch-xl-068-71",
+      "busId": "bus-xl-040",
+      "routeId": "route-dhaka-bakshiganj-p-4d3c3923",
+      "direction": "outbound",
+      "departureTime": "23:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-069-72",
+      "busId": "bus-xl-040",
+      "routeId": "route-dhaka-p-da2c52bc",
+      "direction": "outbound",
+      "departureTime": "07:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-040-1"
+    },
+    {
+      "id": "sch-xl-069-73",
+      "busId": "bus-xl-040",
+      "routeId": "route-dhaka-p-da2c52bc",
+      "direction": "return",
+      "departureTime": "20:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "sch-xl-071-74",
+      "busId": "bus-xl-071",
+      "routeId": "route-dhaka-roumari",
+      "direction": "return",
+      "departureTime": "20:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-071-1"
+    },
+    {
+      "id": "sch-xl-072-75",
+      "busId": "bus-xl-072",
+      "routeId": "route-dhaka-roumari",
+      "direction": "outbound",
+      "departureTime": "07:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-072-2"
+    },
+    {
+      "id": "sch-xl-072-76",
+      "busId": "bus-xl-072",
+      "routeId": "route-dhaka-roumari",
+      "direction": "outbound",
+      "departureTime": "07:45",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-072-2"
+    },
+    {
+      "id": "sch-xl-072-77",
+      "busId": "bus-xl-072",
+      "routeId": "route-dhaka-roumari",
+      "direction": "outbound",
+      "departureTime": "09:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-072-2"
+    },
+    {
+      "id": "sch-xl-072-78",
+      "busId": "bus-xl-072",
+      "routeId": "route-dhaka-roumari",
+      "direction": "outbound",
+      "departureTime": "19:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-072-2"
+    },
+    {
+      "id": "sch-xl-072-79",
+      "busId": "bus-xl-072",
+      "routeId": "route-dhaka-roumari",
+      "direction": "outbound",
+      "departureTime": "20:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-072-2"
+    },
+    {
+      "id": "sch-xl-072-80",
+      "busId": "bus-xl-072",
+      "routeId": "route-dhaka-roumari",
+      "direction": "outbound",
+      "departureTime": "21:30",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-072-2"
+    },
+    {
+      "id": "sch-xl-072-81",
+      "busId": "bus-xl-072",
+      "routeId": "route-dhaka-roumari",
+      "direction": "outbound",
+      "departureTime": "23:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-072-2"
+    },
+    {
+      "id": "sch-xl-072-82",
+      "busId": "bus-xl-072",
+      "routeId": "route-dhaka-roumari",
+      "direction": "return",
+      "departureTime": "08:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-072-7"
+    },
+    {
+      "id": "sch-xl-072-83",
+      "busId": "bus-xl-072",
+      "routeId": "route-dhaka-roumari",
+      "direction": "return",
+      "departureTime": "09:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-072-7"
+    },
+    {
+      "id": "sch-xl-072-84",
+      "busId": "bus-xl-072",
+      "routeId": "route-dhaka-roumari",
+      "direction": "return",
+      "departureTime": "19:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-072-7"
+    },
+    {
+      "id": "sch-xl-072-85",
+      "busId": "bus-xl-072",
+      "routeId": "route-dhaka-roumari",
+      "direction": "return",
+      "departureTime": "20:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-072-7"
+    },
+    {
+      "id": "sch-xl-072-86",
+      "busId": "bus-xl-072",
+      "routeId": "route-dhaka-roumari",
+      "direction": "return",
+      "departureTime": "21:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-072-7"
+    },
+    {
+      "id": "sch-xl-072-87",
+      "busId": "bus-xl-072",
+      "routeId": "route-dhaka-roumari",
+      "direction": "return",
+      "departureTime": "22:00",
+      "operatingDays": [
+        "sat",
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – operating days assumed daily"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z",
+      "counterId": "counter-xl-072-7"
     }
   ]
 }

@@ -3,116 +3,6 @@
   "description": "DEMO counters. Phone numbers are fake placeholders.",
   "items": [
     {
-      "id": "counter-dhaka-demo-1",
-      "name_bn": "ঢাকা ডেমো কাউন্টার ১",
-      "name_en": "Dhaka Demo Counter 1",
-      "placeId": "dhaka",
-      "address_bn": "ডেমো ঠিকানা (যাচাই করা হয়নি)",
-      "address_en": "Demo address (not verified)",
-      "phones": [
-        {
-          "label": "counter",
-          "number": "01000000101",
-          "demo": true
-        }
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "counter-dhaka-demo-2",
-      "name_bn": "ঢাকা ডেমো কাউন্টার ২",
-      "name_en": "Dhaka Demo Counter 2",
-      "placeId": "dhaka",
-      "address_bn": "ডেমো ঠিকানা (যাচাই করা হয়নি)",
-      "address_en": "Demo address (not verified)",
-      "phones": [
-        {
-          "label": "counter",
-          "number": "01000000102",
-          "demo": true
-        }
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "counter-sreebardi-demo",
-      "name_bn": "শ্রীবরদী ডেমো কাউন্টার",
-      "name_en": "Sreebardi Demo Counter",
-      "placeId": "sreebardi",
-      "address_bn": "ডেমো ঠিকানা (যাচাই করা হয়নি)",
-      "address_en": "Demo address (not verified)",
-      "phones": [
-        {
-          "label": "counter",
-          "number": "01000000103",
-          "demo": true
-        }
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "counter-bakshiganj-demo",
-      "name_bn": "বকশীগঞ্জ ডেমো কাউন্টার",
-      "name_en": "Bakshiganj Demo Counter",
-      "placeId": "bakshiganj",
-      "address_bn": "ডেমো ঠিকানা (যাচাই করা হয়নি)",
-      "address_en": "Demo address (not verified)",
-      "phones": [
-        {
-          "label": "counter",
-          "number": "01000000104",
-          "demo": true
-        }
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "counter-sherpur-demo",
-      "name_bn": "শেরপুর ডেমো কাউন্টার",
-      "name_en": "Sherpur Demo Counter",
-      "placeId": "sherpur",
-      "address_bn": "ডেমো ঠিকানা (যাচাই করা হয়নি)",
-      "address_en": "Demo address (not verified)",
-      "phones": [
-        {
-          "label": "counter",
-          "number": "01000000105",
-          "demo": true
-        }
-      ],
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
       "id": "counter-sotota-sherpur",
       "name_bn": "সততা এক্সপ্রেস শেরপুর কাউন্টার",
       "name_en": "Sotota Express Sherpur Counter",
@@ -472,6 +362,11 @@
           "label": "counter",
           "number": "01755418143",
           "demo": false
+        },
+        {
+          "label": "counter",
+          "number": "01912567530",
+          "demo": false
         }
       ],
       "status": "published",
@@ -585,6 +480,11 @@
         {
           "label": "counter",
           "number": "01755418143",
+          "demo": false
+        },
+        {
+          "label": "counter",
+          "number": "01912567530",
           "demo": false
         }
       ],
@@ -818,6 +718,2784 @@
         "source": "facebook-post-461540096431776 (unverified)"
       },
       "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-018-1",
+      "name_bn": "শেরপুর কাউন্টার – রকেট",
+      "name_en": "Sherpur counter – রকেট",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর (গুলিস্তান–সায়েদাবাদ–যাত্রাবাড়ি)",
+      "address_en": "শেরপুর (গুলিস্তান–সায়েদাবাদ–যাত্রাবাড়ি)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01729592294",
+          "demo": false
+        },
+        {
+          "label": "counter",
+          "number": "01775024499",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-018-2",
+      "name_bn": "তিনানী কাউন্টার – রকেট",
+      "name_en": "Tinani counter – রকেট",
+      "placeId": "tinani",
+      "address_bn": "তিনানী",
+      "address_en": "তিনানী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01740911483",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-018-3",
+      "name_bn": "কালীবাড়ি কাউন্টার – রকেট",
+      "name_en": "কালীবাড়ি counter – রকেট",
+      "placeId": "p-e2c3f4d3",
+      "address_bn": "কালীবাড়ি",
+      "address_en": "কালীবাড়ি",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01711512591",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-018-4",
+      "name_bn": "নকলা কাউন্টার – রকেট",
+      "name_en": "Nakla counter – রকেট",
+      "placeId": "nakla",
+      "address_bn": "নকলা",
+      "address_en": "নকলা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01719073782",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-018-5",
+      "name_bn": "ফুলপুর কাউন্টার – রকেট",
+      "name_en": "Phulpur counter – রকেট",
+      "placeId": "phulpur",
+      "address_bn": "ফুলপুর",
+      "address_en": "ফুলপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01724453269",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-018-6",
+      "name_bn": "জালকুড়ি কাউন্টার – রকেট",
+      "name_en": "জালকুড়ি counter – রকেট",
+      "placeId": "p-5880c798",
+      "address_bn": "জালকুড়ি – ছাড়ার সময় 21:10",
+      "address_en": "জালকুড়ি – ছাড়ার সময় 21:10",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01677715329",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-018-7",
+      "name_bn": "তারাব কাউন্টার – রকেট",
+      "name_en": "Tarab counter – রকেট",
+      "placeId": "tarab",
+      "address_bn": "তারাব – ছাড়ার সময় 22:00",
+      "address_en": "তারাব – ছাড়ার সময় 22:00",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01790487555",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-019-1",
+      "name_bn": "শেরপুর কাউন্টার – রকেট প্লাস",
+      "name_en": "Sherpur counter – রকেট প্লাস",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর (কিশোরগঞ্জ–নরসিংদী)",
+      "address_en": "শেরপুর (কিশোরগঞ্জ–নরসিংদী)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01729592294",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-020-1",
+      "name_bn": "শেরপুর কাউন্টার – সীমান্ত এক্সপ্রেস",
+      "name_en": "Sherpur counter – সীমান্ত এক্সপ্রেস",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর (জামালপুর–বগুড়া হয়ে)",
+      "address_en": "শেরপুর (জামালপুর–বগুড়া হয়ে)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01726564771",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-020-2",
+      "name_bn": "রংপুর/সুপারভাইজার কাউন্টার – সীমান্ত এক্সপ্রেস",
+      "name_en": "রংপুর/সুপারভাইজার counter – সীমান্ত এক্সপ্রেস",
+      "placeId": "p-271eaa7c",
+      "address_bn": "রংপুর/সুপারভাইজার",
+      "address_en": "রংপুর/সুপারভাইজার",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01734624901",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-021-1",
+      "name_bn": "শেরপুর কাউন্টার – হিমেল সিমান্ত",
+      "name_en": "Sherpur counter – হিমেল সিমান্ত",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর",
+      "address_en": "শেরপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01729592294",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-021-2",
+      "name_bn": "বেনাপোল কাউন্টার – হিমেল সিমান্ত",
+      "name_en": "Benapole counter – হিমেল সিমান্ত",
+      "placeId": "benapole",
+      "address_bn": "বেনাপোল",
+      "address_en": "বেনাপোল",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01760443366",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-021-3",
+      "name_bn": "যশোর কাউন্টার – হিমেল সিমান্ত",
+      "name_en": "Jashore counter – হিমেল সিমান্ত",
+      "placeId": "jashore",
+      "address_bn": "যশোর",
+      "address_en": "যশোর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01712787277",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-022-1",
+      "name_bn": "সিলেট কদমতলী কাউন্টার – জালালাবাদ",
+      "name_en": "সিলেট কদমতলী counter – জালালাবাদ",
+      "placeId": "p-78baff79",
+      "address_bn": "সিলেট কদমতলী",
+      "address_en": "সিলেট কদমতলী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01718538037",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-023-1",
+      "name_bn": "শেরপুর কাউন্টার – মধুমতি",
+      "name_en": "Sherpur counter – মধুমতি",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর",
+      "address_en": "শেরপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01304257603",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-023-2",
+      "name_bn": "সিলেট কাউন্টার – মধুমতি",
+      "name_en": "Sylhet counter – মধুমতি",
+      "placeId": "sylhet",
+      "address_bn": "সিলেট",
+      "address_en": "সিলেট",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01304257605",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-024-1",
+      "name_bn": "শেরপুর কাউন্টার – SK Jonony",
+      "name_en": "Sherpur counter – SK Jonony",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর",
+      "address_en": "শেরপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01777966982",
+          "demo": false
+        },
+        {
+          "label": "counter",
+          "number": "01777966983",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-025-1",
+      "name_bn": "শেরপুর কাউন্টার – প্রতিনিধি",
+      "name_en": "Sherpur counter – প্রতিনিধি",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর (কুমিল্লা–ফেনী)",
+      "address_en": "শেরপুর (কুমিল্লা–ফেনী)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01726564771",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-025-2",
+      "name_bn": "নকলা কাউন্টার – প্রতিনিধি",
+      "name_en": "Nakla counter – প্রতিনিধি",
+      "placeId": "nakla",
+      "address_bn": "নকলা",
+      "address_en": "নকলা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01719073782",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-025-3",
+      "name_bn": "ফুলপুর কাউন্টার – প্রতিনিধি",
+      "name_en": "Phulpur counter – প্রতিনিধি",
+      "placeId": "phulpur",
+      "address_bn": "ফুলপুর",
+      "address_en": "ফুলপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01724453269",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-025-4",
+      "name_bn": "ঝিনাইগাতী কাউন্টার – প্রতিনিধি",
+      "name_en": "Jhenaigati counter – প্রতিনিধি",
+      "placeId": "jhenaigati",
+      "address_bn": "ঝিনাইগাতী",
+      "address_en": "ঝিনাইগাতী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01711333913",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-025-5",
+      "name_bn": "বায়োজিদ কাউন্টার – প্রতিনিধি",
+      "name_en": "বায়োজিদ counter – প্রতিনিধি",
+      "placeId": "p-a9769ade",
+      "address_bn": "বায়োজিদ",
+      "address_en": "বায়োজিদ",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01712216607",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-025-6",
+      "name_bn": "অলংকার কাউন্টার – প্রতিনিধি",
+      "name_en": "Alankar counter – প্রতিনিধি",
+      "placeId": "alankar",
+      "address_bn": "অলংকার",
+      "address_en": "অলংকার",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01945437837",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-026-1",
+      "name_bn": "শেরপুর কাউন্টার – জনতা মিতালী",
+      "name_en": "Sherpur counter – জনতা মিতালী",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর (কুমিল্লা–ফেনী)",
+      "address_en": "শেরপুর (কুমিল্লা–ফেনী)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01771024663",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-026-2",
+      "name_bn": "নকলা কাউন্টার – জনতা মিতালী",
+      "name_en": "Nakla counter – জনতা মিতালী",
+      "placeId": "nakla",
+      "address_bn": "নকলা",
+      "address_en": "নকলা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01719073782",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-026-3",
+      "name_bn": "ফুলপুর কাউন্টার – জনতা মিতালী",
+      "name_en": "Phulpur counter – জনতা মিতালী",
+      "placeId": "phulpur",
+      "address_bn": "ফুলপুর",
+      "address_en": "ফুলপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01724453269",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-026-4",
+      "name_bn": "তারাকান্দা কাউন্টার – জনতা মিতালী",
+      "name_en": "Tarakanda counter – জনতা মিতালী",
+      "placeId": "tarakanda",
+      "address_bn": "তারাকান্দা",
+      "address_en": "তারাকান্দা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01761555068",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-026-5",
+      "name_bn": "বায়োজিদ কাউন্টার – জনতা মিতালী",
+      "name_en": "বায়োজিদ counter – জনতা মিতালী",
+      "placeId": "p-a9769ade",
+      "address_bn": "বায়োজিদ",
+      "address_en": "বায়োজিদ",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01918214809",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-026-6",
+      "name_bn": "অলংকার কাউন্টার – জনতা মিতালী",
+      "name_en": "Alankar counter – জনতা মিতালী",
+      "placeId": "alankar",
+      "address_bn": "অলংকার",
+      "address_en": "অলংকার",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01718446690",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-026-7",
+      "name_bn": "ফেনী কাউন্টার – জনতা মিতালী",
+      "name_en": "Feni counter – জনতা মিতালী",
+      "placeId": "feni",
+      "address_bn": "ফেনী",
+      "address_en": "ফেনী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01712790689",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-027-1",
+      "name_bn": "শেরপুর কাউন্টার – শামীম এন্টারপ্রাইজ",
+      "name_en": "Sherpur counter – শামীম এন্টারপ্রাইজ",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর",
+      "address_en": "শেরপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01861659347",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-027-2",
+      "name_bn": "চট্টগ্রাম কাউন্টার – শামীম এন্টারপ্রাইজ",
+      "name_en": "Chattogram counter – শামীম এন্টারপ্রাইজ",
+      "placeId": "chattogram",
+      "address_bn": "চট্টগ্রাম",
+      "address_en": "চট্টগ্রাম",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01954005162",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-027-3",
+      "name_bn": "কক্সবাজার কাউন্টার – শামীম এন্টারপ্রাইজ",
+      "name_en": "Cox's Bazar counter – শামীম এন্টারপ্রাইজ",
+      "placeId": "cox-s-bazar",
+      "address_bn": "কক্সবাজার",
+      "address_en": "কক্সবাজার",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01701655074",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-029-1",
+      "name_bn": "নন্নী কাউন্টার – মনিমুক্তা-২",
+      "name_en": "Nonni counter – মনিমুক্তা-২",
+      "placeId": "nonni",
+      "address_bn": "নন্নী",
+      "address_en": "নন্নী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01792610029",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-029-2",
+      "name_bn": "তিনানী কাউন্টার – মনিমুক্তা-২",
+      "name_en": "Tinani counter – মনিমুক্তা-২",
+      "placeId": "tinani",
+      "address_bn": "তিনানী",
+      "address_en": "তিনানী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01912201202",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-029-3",
+      "name_bn": "শেরপুর কাউন্টার – মনিমুক্তা-২",
+      "name_en": "Sherpur counter – মনিমুক্তা-২",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর – ছাড়ার সময় 00:20",
+      "address_en": "শেরপুর – ছাড়ার সময় 00:20",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01725371819",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-fb-brtc-ac-3",
+      "name_bn": "নন্নী কাউন্টার – BRTC AC",
+      "name_en": "Nonni counter – BRTC AC",
+      "placeId": "nonni",
+      "address_bn": "নন্নী (ভাড়া ৩০০ টাকা)",
+      "address_en": "নন্নী (ভাড়া ৩০০ টাকা)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01927378249",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-031-1",
+      "name_bn": "ঢাকা কাউন্টার – হাওলাদার ট্রাভেলস",
+      "name_en": "Dhaka counter – হাওলাদার ট্রাভেলস",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01927378249",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-032-1",
+      "name_bn": "ঢাকা কাউন্টার – হাজী 1J কোচ",
+      "name_en": "Dhaka counter – হাজী 1J কোচ",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01720216807",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-033-1",
+      "name_bn": "নন্নী কাউন্টার – হাজী এন্টারপ্রাইজ",
+      "name_en": "Nonni counter – হাজী এন্টারপ্রাইজ",
+      "placeId": "nonni",
+      "address_bn": "নন্নী",
+      "address_en": "নন্নী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01927378249",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-035-1",
+      "name_bn": "ঢাকা কাউন্টার – হ্যাভেন ক্লাসিক",
+      "name_en": "Dhaka counter – হ্যাভেন ক্লাসিক",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা (ভায়া নন্নী)",
+      "address_en": "ঢাকা (ভায়া নন্নী)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01700546058",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-036-1",
+      "name_bn": "ঢাকা কাউন্টার – ভূইয়া পরিবহন",
+      "name_en": "Dhaka counter – ভূইয়া পরিবহন",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01790265300",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-038-1",
+      "name_bn": "নন্নী কাউন্টার – শামীম এন্টারপ্রাইজ চেয়ারকোচ",
+      "name_en": "Nonni counter – শামীম এন্টারপ্রাইজ চেয়ারকোচ",
+      "placeId": "nonni",
+      "address_bn": "নন্নী",
+      "address_en": "নন্নী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01716260222",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-038-2",
+      "name_bn": "মিরপুর 10 কাউন্টার – শামীম এন্টারপ্রাইজ চেয়ারকোচ",
+      "name_en": "মিরপুর 10 counter – শামীম এন্টারপ্রাইজ চেয়ারকোচ",
+      "placeId": "p-c9ef72fe",
+      "address_bn": "মিরপুর 10 – ছাড়ার সময় 23:00",
+      "address_en": "মিরপুর 10 – ছাড়ার সময় 23:00",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-039-1",
+      "name_bn": "ঢাকা কাউন্টার – সাহা ট্রাভেলস",
+      "name_en": "Dhaka counter – সাহা ট্রাভেলস",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01719717780",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-039-2",
+      "name_bn": "সমশ্চূড়া কাউন্টার – সাহা ট্রাভেলস",
+      "name_en": "সমশ্চূড়া counter – সাহা ট্রাভেলস",
+      "placeId": "p-cfabd79e",
+      "address_bn": "সমশ্চূড়া – ছাড়ার সময় 06:45",
+      "address_en": "সমশ্চূড়া – ছাড়ার সময় 06:45",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-040-1",
+      "name_bn": "ঢাকা কাউন্টার – ক্রাউন ডিলাক্স",
+      "name_en": "Dhaka counter – ক্রাউন ডিলাক্স",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01913607404",
+          "demo": false
+        },
+        {
+          "label": "other",
+          "number": "01912518718",
+          "demo": false
+        },
+        {
+          "label": "counter",
+          "number": "01775534173",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-041-1",
+      "name_bn": "ঢাকা কাউন্টার – বাবুল",
+      "name_en": "Dhaka counter – বাবুল",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01794394978",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-042-1",
+      "name_bn": "ঢাকা কাউন্টার – রাজু",
+      "name_en": "Dhaka counter – রাজু",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01741373083",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-043-1",
+      "name_bn": "ঢাকা কাউন্টার – আশিক",
+      "name_en": "Dhaka counter – আশিক",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01796296823",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-044-1",
+      "name_bn": "নালিতাবাড়ী কাউন্টার – বিলাস পরিবহন",
+      "name_en": "নালিতাবাড়ী counter – বিলাস পরিবহন",
+      "placeId": "p-206bd6fa",
+      "address_bn": "নালিতাবাড়ী (গাউসিয়া–তারাবো–ডেমরা–চাষাড়া)",
+      "address_en": "নালিতাবাড়ী (গাউসিয়া–তারাবো–ডেমরা–চাষাড়া)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01718193784",
+          "demo": false
+        },
+        {
+          "label": "counter",
+          "number": "01750245209",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-045-1",
+      "name_bn": "ঢাকা কাউন্টার – শেরপুর ট্রাভেলস",
+      "name_en": "Dhaka counter – শেরপুর ট্রাভেলস",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা (মধুপুর–জামালপুর–শেরপুর)",
+      "address_en": "ঢাকা (মধুপুর–জামালপুর–শেরপুর)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01730891913",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-045-2",
+      "name_bn": "অষ্টমীতলা কাউন্টার – শেরপুর ট্রাভেলস",
+      "name_en": "Ashtamitola counter – শেরপুর ট্রাভেলস",
+      "placeId": "ashtamitola",
+      "address_bn": "অষ্টমীতলা – ছাড়ার সময় 16:00",
+      "address_en": "অষ্টমীতলা – ছাড়ার সময় 16:00",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-045-3",
+      "name_bn": "বাইপাইল কাউন্টার – শেরপুর ট্রাভেলস",
+      "name_en": "Baipail counter – শেরপুর ট্রাভেলস",
+      "placeId": "baipail",
+      "address_bn": "বাইপাইল – ছাড়ার সময় 08:30",
+      "address_en": "বাইপাইল – ছাড়ার সময় 08:30",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-046-1",
+      "name_bn": "শেরপুর কাউন্টার – এম.ডি. সুপার",
+      "name_en": "Sherpur counter – এম.ডি. সুপার",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর (অষ্টমীতলা কাউন্টার: দুলাল)",
+      "address_en": "শেরপুর (অষ্টমীতলা কাউন্টার: দুলাল)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01306343410",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-046-2",
+      "name_bn": "বাইপাইল কাউন্টার – এম.ডি. সুপার",
+      "name_en": "Baipail counter – এম.ডি. সুপার",
+      "placeId": "baipail",
+      "address_bn": "বাইপাইল – ছাড়ার সময় 06:30",
+      "address_en": "বাইপাইল – ছাড়ার সময় 06:30",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-047-1",
+      "name_bn": "ঝিনাইগাতী কাউন্টার – সুবর্ণা এক্সপ্রেস",
+      "name_en": "Jhenaigati counter – সুবর্ণা এক্সপ্রেস",
+      "placeId": "jhenaigati",
+      "address_bn": "ঝিনাইগাতী",
+      "address_en": "ঝিনাইগাতী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01757367454",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-047-2",
+      "name_bn": "তিনানী কাউন্টার – সুবর্ণা এক্সপ্রেস",
+      "name_en": "Tinani counter – সুবর্ণা এক্সপ্রেস",
+      "placeId": "tinani",
+      "address_bn": "তিনানী – ছাড়ার সময় 23:30",
+      "address_en": "তিনানী – ছাড়ার সময় 23:30",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01757366181",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-047-3",
+      "name_bn": "শেরপুর কাউন্টার – সুবর্ণা এক্সপ্রেস",
+      "name_en": "Sherpur counter – সুবর্ণা এক্সপ্রেস",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর – ছাড়ার সময় 00:00",
+      "address_en": "শেরপুর – ছাড়ার সময় 00:00",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01786178055",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-048-1",
+      "name_bn": "শেরপুর কাউন্টার – FZ Line",
+      "name_en": "Sherpur counter – FZ Line",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর",
+      "address_en": "শেরপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01730483170",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-049-1",
+      "name_bn": "ঢাকা কাউন্টার – সিয়াম এন্টারপ্রাইজ",
+      "name_en": "Dhaka counter – সিয়াম এন্টারপ্রাইজ",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01741914525",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-050-1",
+      "name_bn": "ঢাকা কাউন্টার – রুপা",
+      "name_en": "Dhaka counter – রুপা",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01751609130",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-051-1",
+      "name_bn": "ঢাকা কাউন্টার – অবকাশ এক্সপ্রেস",
+      "name_en": "Dhaka counter – অবকাশ এক্সপ্রেস",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01734272956",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-052-1",
+      "name_bn": "ঢাকা কাউন্টার – তাকিফ ট্রাভেলস",
+      "name_en": "Dhaka counter – তাকিফ ট্রাভেলস",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা (কিছু সময় AM/PM অস্পষ্ট)",
+      "address_en": "ঢাকা (কিছু সময় AM/PM অস্পষ্ট)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01778522780",
+          "demo": false
+        },
+        {
+          "label": "other",
+          "number": "01911532712",
+          "demo": false
+        },
+        {
+          "label": "other",
+          "number": "01681316154",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-052-2",
+      "name_bn": "তিনানী কাউন্টার – তাকিফ ট্রাভেলস",
+      "name_en": "Tinani counter – তাকিফ ট্রাভেলস",
+      "placeId": "tinani",
+      "address_bn": "তিনানী – ছাড়ার সময় 01:30",
+      "address_en": "তিনানী – ছাড়ার সময় 01:30",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-053-1",
+      "name_bn": "মুন্সীগঞ্জ কাউন্টার – S.B Gourab Paribahan",
+      "name_en": "Munshiganj counter – S.B Gourab Paribahan",
+      "placeId": "munshiganj",
+      "address_bn": "মুন্সীগঞ্জ",
+      "address_en": "মুন্সীগঞ্জ",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01781900917",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-053-2",
+      "name_bn": "খানপুর কাউন্টার – S.B Gourab Paribahan",
+      "name_en": "Khanpur counter – S.B Gourab Paribahan",
+      "placeId": "khanpur",
+      "address_bn": "খানপুর",
+      "address_en": "খানপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01781900914",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-053-3",
+      "name_bn": "শেরপুর কাউন্টার – S.B Gourab Paribahan",
+      "name_en": "Sherpur counter – S.B Gourab Paribahan",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর",
+      "address_en": "শেরপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01755418143",
+          "demo": false
+        },
+        {
+          "label": "counter",
+          "number": "01912567530",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-053-4",
+      "name_bn": "ঝিনাইগাতী কাউন্টার – S.B Gourab Paribahan",
+      "name_en": "Jhenaigati counter – S.B Gourab Paribahan",
+      "placeId": "jhenaigati",
+      "address_bn": "ঝিনাইগাতী",
+      "address_en": "ঝিনাইগাতী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01781907977",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-054-1",
+      "name_bn": "ঝিনাইগাতী কাউন্টার – রকেট লাইন",
+      "name_en": "Jhenaigati counter – রকেট লাইন",
+      "placeId": "jhenaigati",
+      "address_bn": "ঝিনাইগাতী (নকলা–ফুলপুর–ময়মনসিংহ হয়ে)",
+      "address_en": "ঝিনাইগাতী (নকলা–ফুলপুর–ময়মনসিংহ হয়ে)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01724552223",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-054-2",
+      "name_bn": "শেরপুর কাউন্টার – রকেট লাইন",
+      "name_en": "Sherpur counter – রকেট লাইন",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর",
+      "address_en": "শেরপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01729592294",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-054-3",
+      "name_bn": "নকলা কাউন্টার – রকেট লাইন",
+      "name_en": "Nakla counter – রকেট লাইন",
+      "placeId": "nakla",
+      "address_bn": "নকলা",
+      "address_en": "নকলা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01719073782",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-054-4",
+      "name_bn": "ফুলপুর কাউন্টার – রকেট লাইন",
+      "name_en": "Phulpur counter – রকেট লাইন",
+      "placeId": "phulpur",
+      "address_bn": "ফুলপুর",
+      "address_en": "ফুলপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01724453269",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-054-5",
+      "name_bn": "তারাকান্দা কাউন্টার – রকেট লাইন",
+      "name_en": "Tarakanda counter – রকেট লাইন",
+      "placeId": "tarakanda",
+      "address_bn": "তারাকান্দা",
+      "address_en": "তারাকান্দা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01761555068",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-054-6",
+      "name_bn": "পঞ্চবটি কাউন্টার – রকেট লাইন",
+      "name_en": "Panchabati counter – রকেট লাইন",
+      "placeId": "panchabati",
+      "address_bn": "পঞ্চবটি – ছাড়ার সময় 19:30",
+      "address_en": "পঞ্চবটি – ছাড়ার সময় 19:30",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01766764963",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-054-7",
+      "name_bn": "খানপুর কাউন্টার – রকেট লাইন",
+      "name_en": "Khanpur counter – রকেট লাইন",
+      "placeId": "khanpur",
+      "address_bn": "খানপুর",
+      "address_en": "খানপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01766764810",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-054-8",
+      "name_bn": "সিদ্ধিরগঞ্জ কাউন্টার – রকেট লাইন",
+      "name_en": "Siddhirganj counter – রকেট লাইন",
+      "placeId": "siddhirganj",
+      "address_bn": "সিদ্ধিরগঞ্জ",
+      "address_en": "সিদ্ধিরগঞ্জ",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01766765039",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-054-9",
+      "name_bn": "জালকুড়ি কাউন্টার – রকেট লাইন",
+      "name_en": "জালকুড়ি counter – রকেট লাইন",
+      "placeId": "p-5880c798",
+      "address_bn": "জালকুড়ি",
+      "address_en": "জালকুড়ি",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01677715329",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-055-1",
+      "name_bn": "ঝিনাইগাতী কাউন্টার – মাহী এন্টারপ্রাইজ",
+      "name_en": "Jhenaigati counter – মাহী এন্টারপ্রাইজ",
+      "placeId": "jhenaigati",
+      "address_bn": "ঝিনাইগাতী",
+      "address_en": "ঝিনাইগাতী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01955990745",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-056-1",
+      "name_bn": "ঝিনাইগাতী কাউন্টার – শিবু এক্সপ্রেস",
+      "name_en": "Jhenaigati counter – শিবু এক্সপ্রেস",
+      "placeId": "jhenaigati",
+      "address_bn": "ঝিনাইগাতী",
+      "address_en": "ঝিনাইগাতী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01828120080",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-057-1",
+      "name_bn": "ঝিনাইগাতী কাউন্টার – পদ্মা লাইন",
+      "name_en": "Jhenaigati counter – পদ্মা লাইন",
+      "placeId": "jhenaigati",
+      "address_bn": "ঝিনাইগাতী",
+      "address_en": "ঝিনাইগাতী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01315481441",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-057-2",
+      "name_bn": "ভারুয়া কাউন্টার – পদ্মা লাইন",
+      "name_en": "ভারুয়া counter – পদ্মা লাইন",
+      "placeId": "p-82f5c588",
+      "address_bn": "ভারুয়া – ছাড়ার সময় 22:15",
+      "address_en": "ভারুয়া – ছাড়ার সময় 22:15",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01911165044",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-057-3",
+      "name_bn": "বনগাঁও কাউন্টার – পদ্মা লাইন",
+      "name_en": "Bongaon counter – পদ্মা লাইন",
+      "placeId": "bongaon",
+      "address_bn": "বনগাঁও – ছাড়ার সময় 22:30",
+      "address_en": "বনগাঁও – ছাড়ার সময় 22:30",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01916792575",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-057-4",
+      "name_bn": "তিনানী কাউন্টার – পদ্মা লাইন",
+      "name_en": "Tinani counter – পদ্মা লাইন",
+      "placeId": "tinani",
+      "address_bn": "তিনানী – ছাড়ার সময় 22:45",
+      "address_en": "তিনানী – ছাড়ার সময় 22:45",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01740911483",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-057-5",
+      "name_bn": "শেরপুর কাউন্টার – পদ্মা লাইন",
+      "name_en": "Sherpur counter – পদ্মা লাইন",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর – ছাড়ার সময় 23:00",
+      "address_en": "শেরপুর – ছাড়ার সময় 23:00",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01998899898",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-057-6",
+      "name_bn": "আশুলিয়া কাউন্টার – পদ্মা লাইন",
+      "name_en": "আশুলিয়া counter – পদ্মা লাইন",
+      "placeId": "p-bff17336",
+      "address_bn": "আশুলিয়া – ছাড়ার সময় 06:10",
+      "address_en": "আশুলিয়া – ছাড়ার সময় 06:10",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01921775938",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-057-7",
+      "name_bn": "বাইপাইল কাউন্টার – পদ্মা লাইন",
+      "name_en": "Baipail counter – পদ্মা লাইন",
+      "placeId": "baipail",
+      "address_bn": "বাইপাইল – ছাড়ার সময় 05:35",
+      "address_en": "বাইপাইল – ছাড়ার সময় 05:35",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01723452324",
+          "demo": false
+        },
+        {
+          "label": "counter",
+          "number": "01721626063",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-057-8",
+      "name_bn": "সাভার কাউন্টার – পদ্মা লাইন",
+      "name_en": "Savar counter – পদ্মা লাইন",
+      "placeId": "savar",
+      "address_bn": "সাভার",
+      "address_en": "সাভার",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01915481443",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-058-1",
+      "name_bn": "ঝিনাইগাতী কাউন্টার – মায়ের আঁচল এক্সপ্রেস",
+      "name_en": "Jhenaigati counter – মায়ের আঁচল এক্সপ্রেস",
+      "placeId": "jhenaigati",
+      "address_bn": "ঝিনাইগাতী",
+      "address_en": "ঝিনাইগাতী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01981464183",
+          "demo": false
+        },
+        {
+          "label": "counter",
+          "number": "01910864164",
+          "demo": false
+        },
+        {
+          "label": "booking",
+          "number": "01910864157",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-058-2",
+      "name_bn": "তিনানী কাউন্টার – মায়ের আঁচল এক্সপ্রেস",
+      "name_en": "Tinani counter – মায়ের আঁচল এক্সপ্রেস",
+      "placeId": "tinani",
+      "address_bn": "তিনানী – ছাড়ার সময় 23:20",
+      "address_en": "তিনানী – ছাড়ার সময় 23:20",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-058-3",
+      "name_bn": "গাজীপুর কাউন্টার – মায়ের আঁচল এক্সপ্রেস",
+      "name_en": "Gazipur counter – মায়ের আঁচল এক্সপ্রেস",
+      "placeId": "gazipur",
+      "address_bn": "গাজীপুর – ছাড়ার সময় 00:00",
+      "address_en": "গাজীপুর – ছাড়ার সময় 00:00",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-059-1",
+      "name_bn": "ঝিনাইগাতী কাউন্টার – আনিকা আদিবা",
+      "name_en": "Jhenaigati counter – আনিকা আদিবা",
+      "placeId": "jhenaigati",
+      "address_bn": "ঝিনাইগাতী (জামালপুর–মধুপুর–টাঙ্গাইল–কালিয়াকৈর)",
+      "address_en": "ঝিনাইগাতী (জামালপুর–মধুপুর–টাঙ্গাইল–কালিয়াকৈর)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01771488811",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-059-2",
+      "name_bn": "নিউমার্কেট কাউন্টার – আনিকা আদিবা",
+      "name_en": "নিউমার্কেট counter – আনিকা আদিবা",
+      "placeId": "p-b9fd41b5",
+      "address_bn": "নিউমার্কেট – ছাড়ার সময় 08:50",
+      "address_en": "নিউমার্কেট – ছাড়ার সময় 08:50",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01725371819",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-059-3",
+      "name_bn": "অষ্টমীতলা কাউন্টার – আনিকা আদিবা",
+      "name_en": "Ashtamitola counter – আনিকা আদিবা",
+      "placeId": "ashtamitola",
+      "address_bn": "অষ্টমীতলা – ছাড়ার সময় 09:10",
+      "address_en": "অষ্টমীতলা – ছাড়ার সময় 09:10",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01732648065",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-059-4",
+      "name_bn": "বাইপাইল কাউন্টার – আনিকা আদিবা",
+      "name_en": "Baipail counter – আনিকা আদিবা",
+      "placeId": "baipail",
+      "address_bn": "বাইপাইল – ছাড়ার সময় 20:00",
+      "address_en": "বাইপাইল – ছাড়ার সময় 20:00",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-061-1",
+      "name_bn": "ঢাকা কাউন্টার – মোজাদেদ্দীয়া",
+      "name_en": "Dhaka counter – মোজাদেদ্দীয়া",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01733119609",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-062-1",
+      "name_bn": "শেরপুর কাউন্টার – প্রাইম ক্লাসিক",
+      "name_en": "Sherpur counter – প্রাইম ক্লাসিক",
+      "placeId": "sherpur",
+      "address_bn": "শেরপুর – ছাড়ার সময় 00:15",
+      "address_en": "শেরপুর – ছাড়ার সময় 00:15",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01929553823",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-062-2",
+      "name_bn": "বটতলা কাউন্টার – প্রাইম ক্লাসিক",
+      "name_en": "Bottola counter – প্রাইম ক্লাসিক",
+      "placeId": "bottola",
+      "address_bn": "বটতলা – ছাড়ার সময় 23:00",
+      "address_en": "বটতলা – ছাড়ার সময় 23:00",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01912400220",
+          "demo": false
+        },
+        {
+          "label": "counter",
+          "number": "01712400220",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-062-3",
+      "name_bn": "ঢাকা কাউন্টার – প্রাইম ক্লাসিক",
+      "name_en": "Dhaka counter – প্রাইম ক্লাসিক",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা (শ্রীবরদী–কুরুয়া)",
+      "address_en": "ঢাকা (শ্রীবরদী–কুরুয়া)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01929553822",
+          "demo": false
+        },
+        {
+          "label": "other",
+          "number": "01977784020",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-063-1",
+      "name_bn": "ঢাকা কাউন্টার – শ্রীবরদী বহুমুখী শিল্প ও বণিক সমিতি",
+      "name_en": "Dhaka counter – শ্রীবরদী বহুমুখী শিল্প ও বণিক সমিতি",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01718148578",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-064-1",
+      "name_bn": "ঢাকা কাউন্টার – মোরাদ-মহিমা",
+      "name_en": "Dhaka counter – মোরাদ-মহিমা",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01701416640",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-065-1",
+      "name_bn": "ঢাকা কাউন্টার – জে কে এন্টারপ্রাইজ",
+      "name_en": "Dhaka counter – জে কে এন্টারপ্রাইজ",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01929608604",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-066-1",
+      "name_bn": "ঢাকা কাউন্টার – সিহাব এক্সক্লুসিভ",
+      "name_en": "Dhaka counter – সিহাব এক্সক্লুসিভ",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01937556154",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-066-2",
+      "name_bn": "ভায়াডাঙ্গা কাউন্টার – সিহাব এক্সক্লুসিভ",
+      "name_en": "ভায়াডাঙ্গা counter – সিহাব এক্সক্লুসিভ",
+      "placeId": "p-ee62b78f",
+      "address_bn": "ভায়াডাঙ্গা – ছাড়ার সময় 21:30",
+      "address_en": "ভায়াডাঙ্গা – ছাড়ার সময় 21:30",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-067-1",
+      "name_bn": "বকশীগঞ্জ কাউন্টার – মোফাখখার এন্টারপ্রাইজ",
+      "name_en": "Bakshiganj counter – মোফাখখার এন্টারপ্রাইজ",
+      "placeId": "bakshiganj",
+      "address_bn": "বকশীগঞ্জ (ময়মনসিংহ হয়ে)",
+      "address_en": "বকশীগঞ্জ (ময়মনসিংহ হয়ে)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01842206386",
+          "demo": false
+        },
+        {
+          "label": "other",
+          "number": "01842206388",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-067-2",
+      "name_bn": "ঢাকা কাউন্টার – মোফাখখার এন্টারপ্রাইজ",
+      "name_en": "Dhaka counter – মোফাখখার এন্টারপ্রাইজ",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা",
+      "address_en": "ঢাকা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01842206387",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-040-2",
+      "name_bn": "বকশীগঞ্জ কাউন্টার – ক্রাউন ডিলাক্স",
+      "name_en": "Bakshiganj counter – ক্রাউন ডিলাক্স",
+      "placeId": "bakshiganj",
+      "address_bn": "বকশীগঞ্জ – ছাড়ার সময় 12:10",
+      "address_en": "বকশীগঞ্জ – ছাড়ার সময় 12:10",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-070-1",
+      "name_bn": "রৌমারী কাউন্টার – রিফাত পরিবহন",
+      "name_en": "Roumari counter – রিফাত পরিবহন",
+      "placeId": "roumari",
+      "address_bn": "রৌমারী",
+      "address_en": "রৌমারী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01720363319",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-070-2",
+      "name_bn": "ঢাকা কাউন্টার – রিফাত পরিবহন",
+      "name_en": "Dhaka counter – রিফাত পরিবহন",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা (কত্তিমারী নম্বর অসম্পূর্ণ)",
+      "address_en": "ঢাকা (কত্তিমারী নম্বর অসম্পূর্ণ)",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01733732052",
+          "demo": false
+        },
+        {
+          "label": "other",
+          "number": "01923959761",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-070-3",
+      "name_bn": "উত্তরা কাউন্টার – রিফাত পরিবহন",
+      "name_en": "Uttara counter – রিফাত পরিবহন",
+      "placeId": "uttara",
+      "address_bn": "উত্তরা",
+      "address_en": "উত্তরা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01711062898",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – source text unclear/incomplete"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-071-1",
+      "name_bn": "রৌমারী কাউন্টার – মা মণি পরিবহন",
+      "name_en": "Roumari counter – মা মণি পরিবহন",
+      "placeId": "roumari",
+      "address_bn": "রৌমারী",
+      "address_en": "রৌমারী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01962821090",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-071-2",
+      "name_bn": "ঢাকা কাউন্টার – মা মণি পরিবহন",
+      "name_en": "Dhaka counter – মা মণি পরিবহন",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা (আমিনবাজার–বাইপাইল–চান্দুরা)",
+      "address_en": "ঢাকা (আমিনবাজার–বাইপাইল–চান্দুরা)",
+      "phones": [
+        {
+          "label": "booking",
+          "number": "01730215618",
+          "demo": false
+        },
+        {
+          "label": "booking",
+          "number": "01730215619",
+          "demo": false
+        },
+        {
+          "label": "other",
+          "number": "01912350173",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-071-3",
+      "name_bn": "মিরপুর কাউন্টার – মা মণি পরিবহন",
+      "name_en": "Mirpur counter – মা মণি পরিবহন",
+      "placeId": "mirpur",
+      "address_bn": "মিরপুর – ছাড়ার সময় 20:00",
+      "address_en": "মিরপুর – ছাড়ার সময় 20:00",
+      "phones": [],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-072-1",
+      "name_bn": "গাড়ি কাউন্টার – পলি পরিবহন",
+      "name_en": "গাড়ি counter – পলি পরিবহন",
+      "placeId": "p-4e46d31",
+      "address_bn": "গাড়ি",
+      "address_en": "গাড়ি",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01958155316",
+          "demo": false
+        },
+        {
+          "label": "counter",
+          "number": "01958155317",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-072-2",
+      "name_bn": "ঢাকা কাউন্টার – পলি পরিবহন",
+      "name_en": "Dhaka counter – পলি পরিবহন",
+      "placeId": "dhaka",
+      "address_bn": "ঢাকা (ঢাকা–শেরপুর ভাড়া ৪০০ টাকা (প্রদত্ত তথ্য))",
+      "address_en": "ঢাকা (ঢাকা–শেরপুর ভাড়া ৪০০ টাকা (প্রদত্ত তথ্য))",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01958155311",
+          "demo": false
+        },
+        {
+          "label": "other",
+          "number": "01958155315",
+          "demo": false
+        },
+        {
+          "label": "other",
+          "number": "01958155310",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-072-3",
+      "name_bn": "উত্তরা কাউন্টার – পলি পরিবহন",
+      "name_en": "Uttara counter – পলি পরিবহন",
+      "placeId": "uttara",
+      "address_bn": "উত্তরা",
+      "address_en": "উত্তরা",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01958155312",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-072-4",
+      "name_bn": "হোসেন মার্কেট কাউন্টার – পলি পরিবহন",
+      "name_en": "Hossain Market counter – পলি পরিবহন",
+      "placeId": "hossain-market",
+      "address_bn": "হোসেন মার্কেট",
+      "address_en": "হোসেন মার্কেট",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01772848895",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-072-5",
+      "name_bn": "সাইনবোর্ড কাউন্টার – পলি পরিবহন",
+      "name_en": "Signboard counter – পলি পরিবহন",
+      "placeId": "signboard",
+      "address_bn": "সাইনবোর্ড",
+      "address_en": "সাইনবোর্ড",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01977421388",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-072-6",
+      "name_bn": "গাজীপুর কাউন্টার – পলি পরিবহন",
+      "name_en": "Gazipur counter – পলি পরিবহন",
+      "placeId": "gazipur",
+      "address_bn": "গাজীপুর",
+      "address_en": "গাজীপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01958155325",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-072-7",
+      "name_bn": "রৌমারী কাউন্টার – পলি পরিবহন",
+      "name_en": "Roumari counter – পলি পরিবহন",
+      "placeId": "roumari",
+      "address_bn": "রৌমারী",
+      "address_en": "রৌমারী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01958155313",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-072-8",
+      "name_bn": "কর্ত্তিমারী কাউন্টার – পলি পরিবহন",
+      "name_en": "Kartimari counter – পলি পরিবহন",
+      "placeId": "kartimari",
+      "address_bn": "কর্ত্তিমারী",
+      "address_en": "কর্ত্তিমারী",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01745614431",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-072-9",
+      "name_bn": "সায়দাবাদ কাউন্টার – পলি পরিবহন",
+      "name_en": "সায়দাবাদ counter – পলি পরিবহন",
+      "placeId": "p-61f0af8a",
+      "address_bn": "সায়দাবাদ",
+      "address_en": "সায়দাবাদ",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01958155314",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-072-10",
+      "name_bn": "রাজিবপুর কাউন্টার – পলি পরিবহন",
+      "name_en": "Rajibpur counter – পলি পরিবহন",
+      "placeId": "rajibpur",
+      "address_bn": "রাজিবপুর",
+      "address_en": "রাজিবপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01958155315",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-072-11",
+      "name_bn": "রামরামপুর কাউন্টার – পলি পরিবহন",
+      "name_en": "Ramrampur counter – পলি পরিবহন",
+      "placeId": "ramrampur",
+      "address_bn": "রামরামপুর",
+      "address_en": "রামরামপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01714835692",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "counter-xl-072-12",
+      "name_bn": "কামালপুর কাউন্টার – পলি পরিবহন",
+      "name_en": "Kamalpur counter – পলি পরিবহন",
+      "placeId": "kamalpur",
+      "address_bn": "কামালপুর",
+      "address_en": "কামালপুর",
+      "phones": [
+        {
+          "label": "counter",
+          "number": "01939347898",
+          "demo": false
+        }
+      ],
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified)"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
     }
   ]
 }

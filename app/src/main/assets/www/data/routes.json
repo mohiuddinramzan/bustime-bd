@@ -3,124 +3,6 @@
   "description": "DEMO routes. Intermediate stops and durations are placeholders, not verified.",
   "items": [
     {
-      "id": "route-dhaka-sreebardi",
-      "name_bn": "ঢাকা – শ্রীবরদী",
-      "name_en": "Dhaka – Sreebardi",
-      "stops": [
-        {
-          "id": "dhaka",
-          "bn": "ঢাকা",
-          "en": "Dhaka"
-        },
-        {
-          "id": "gazipur",
-          "bn": "গাজীপুর",
-          "en": "Gazipur"
-        },
-        {
-          "id": "mymensingh",
-          "bn": "ময়মনসিংহ",
-          "en": "Mymensingh"
-        },
-        {
-          "id": "sherpur",
-          "bn": "শেরপুর",
-          "en": "Sherpur"
-        },
-        {
-          "id": "sreebardi",
-          "bn": "শ্রীবরদী",
-          "en": "Sreebardi"
-        }
-      ],
-      "approxDurationMin": 330,
-      "durationIsEstimate": true,
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "route-dhaka-bakshiganj",
-      "name_bn": "ঢাকা – বকশীগঞ্জ",
-      "name_en": "Dhaka – Bakshiganj",
-      "stops": [
-        {
-          "id": "dhaka",
-          "bn": "ঢাকা",
-          "en": "Dhaka"
-        },
-        {
-          "id": "gazipur",
-          "bn": "গাজীপুর",
-          "en": "Gazipur"
-        },
-        {
-          "id": "mymensingh",
-          "bn": "ময়মনসিংহ",
-          "en": "Mymensingh"
-        },
-        {
-          "id": "jamalpur",
-          "bn": "জামালপুর",
-          "en": "Jamalpur"
-        },
-        {
-          "id": "bakshiganj",
-          "bn": "বকশীগঞ্জ",
-          "en": "Bakshiganj"
-        }
-      ],
-      "approxDurationMin": 360,
-      "durationIsEstimate": true,
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
-      "id": "route-dhaka-sherpur",
-      "name_bn": "ঢাকা – শেরপুর",
-      "name_en": "Dhaka – Sherpur",
-      "stops": [
-        {
-          "id": "dhaka",
-          "bn": "ঢাকা",
-          "en": "Dhaka"
-        },
-        {
-          "id": "gazipur",
-          "bn": "গাজীপুর",
-          "en": "Gazipur"
-        },
-        {
-          "id": "mymensingh",
-          "bn": "ময়মনসিংহ",
-          "en": "Mymensingh"
-        },
-        {
-          "id": "sherpur",
-          "bn": "শেরপুর",
-          "en": "Sherpur"
-        }
-      ],
-      "approxDurationMin": 270,
-      "durationIsEstimate": true,
-      "status": "published",
-      "verification": {
-        "status": "unverified",
-        "lastVerified": null,
-        "source": "demo-placeholder"
-      },
-      "updatedAt": "2026-10-21T00:00:00Z"
-    },
-    {
       "id": "route-sotota-dhaka-bakshiganj",
       "name_bn": "ঢাকা – শেরপুর – বকশীগঞ্জ",
       "name_en": "Dhaka – Sherpur – Bakshiganj",
@@ -238,6 +120,727 @@
         "source": "facebook-post-461540096431776 (unverified) – duration is a rough estimate"
       },
       "updatedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "id": "route-sherpur-p-7eeaae25",
+      "name_bn": "শেরপুর – নারায়ণগঞ্জ",
+      "name_en": "Sherpur – নারায়ণগঞ্জ",
+      "stops": [
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        },
+        {
+          "id": "p-7eeaae25",
+          "bn": "নারায়ণগঞ্জ",
+          "en": "নারায়ণগঞ্জ"
+        }
+      ],
+      "approxDurationMin": 360,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-sherpur-rangpur",
+      "name_bn": "শেরপুর – রংপুর",
+      "name_en": "Sherpur – Rangpur",
+      "stops": [
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        },
+        {
+          "id": "rangpur",
+          "bn": "রংপুর",
+          "en": "Rangpur"
+        }
+      ],
+      "approxDurationMin": 420,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-sherpur-jashore-benapole",
+      "name_bn": "শেরপুর – যশোর – বেনাপোল",
+      "name_en": "Sherpur – Jashore – Benapole",
+      "stops": [
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        },
+        {
+          "id": "jashore",
+          "bn": "যশোর",
+          "en": "Jashore"
+        },
+        {
+          "id": "benapole",
+          "bn": "বেনাপোল",
+          "en": "Benapole"
+        }
+      ],
+      "approxDurationMin": 600,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-sylhet-sherpur",
+      "name_bn": "সিলেট – শেরপুর",
+      "name_en": "Sylhet – Sherpur",
+      "stops": [
+        {
+          "id": "sylhet",
+          "bn": "সিলেট",
+          "en": "Sylhet"
+        },
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        }
+      ],
+      "approxDurationMin": 480,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-sherpur-sylhet",
+      "name_bn": "শেরপুর – সিলেট",
+      "name_en": "Sherpur – Sylhet",
+      "stops": [
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        },
+        {
+          "id": "sylhet",
+          "bn": "সিলেট",
+          "en": "Sylhet"
+        }
+      ],
+      "approxDurationMin": 480,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-sherpur-rajshahi-chapainawabganj",
+      "name_bn": "শেরপুর – রাজশাহী – চাঁপাইনবাবগঞ্জ",
+      "name_en": "Sherpur – Rajshahi – Chapainawabganj",
+      "stops": [
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        },
+        {
+          "id": "rajshahi",
+          "bn": "রাজশাহী",
+          "en": "Rajshahi"
+        },
+        {
+          "id": "chapainawabganj",
+          "bn": "চাঁপাইনবাবগঞ্জ",
+          "en": "Chapainawabganj"
+        }
+      ],
+      "approxDurationMin": 540,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-sherpur-chattogram",
+      "name_bn": "শেরপুর – চট্টগ্রাম",
+      "name_en": "Sherpur – Chattogram",
+      "stops": [
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        },
+        {
+          "id": "chattogram",
+          "bn": "চট্টগ্রাম",
+          "en": "Chattogram"
+        }
+      ],
+      "approxDurationMin": 600,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-sherpur-cox-s-bazar",
+      "name_bn": "শেরপুর – কক্সবাজার",
+      "name_en": "Sherpur – Cox's Bazar",
+      "stops": [
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        },
+        {
+          "id": "cox-s-bazar",
+          "bn": "কক্সবাজার",
+          "en": "Cox's Bazar"
+        }
+      ],
+      "approxDurationMin": 780,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-dhaka-nonni",
+      "name_bn": "ঢাকা – নন্নী",
+      "name_en": "Dhaka – Nonni",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "nonni",
+          "bn": "নন্নী",
+          "en": "Nonni"
+        }
+      ],
+      "approxDurationMin": 330,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-nonni-mirpur",
+      "name_bn": "নন্নী – মিরপুর",
+      "name_en": "Nonni – Mirpur",
+      "stops": [
+        {
+          "id": "nonni",
+          "bn": "নন্নী",
+          "en": "Nonni"
+        },
+        {
+          "id": "mirpur",
+          "bn": "মিরপুর",
+          "en": "Mirpur"
+        }
+      ],
+      "approxDurationMin": 330,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-dhaka-p-206bd6fa",
+      "name_bn": "ঢাকা – নালিতাবাড়ী",
+      "name_en": "Dhaka – নালিতাবাড়ী",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "p-206bd6fa",
+          "bn": "নালিতাবাড়ী",
+          "en": "নালিতাবাড়ী"
+        }
+      ],
+      "approxDurationMin": 360,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-nonni-mirpur-10",
+      "name_bn": "নন্নী – মিরপুর ১০",
+      "name_en": "Nonni – Mirpur 10",
+      "stops": [
+        {
+          "id": "nonni",
+          "bn": "নন্নী",
+          "en": "Nonni"
+        },
+        {
+          "id": "mirpur-10",
+          "bn": "মিরপুর ১০",
+          "en": "Mirpur 10"
+        }
+      ],
+      "approxDurationMin": 330,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-p-206bd6fa-p-7eeaae25",
+      "name_bn": "নালিতাবাড়ী – নারায়ণগঞ্জ",
+      "name_en": "নালিতাবাড়ী – নারায়ণগঞ্জ",
+      "stops": [
+        {
+          "id": "p-206bd6fa",
+          "bn": "নালিতাবাড়ী",
+          "en": "নালিতাবাড়ী"
+        },
+        {
+          "id": "p-7eeaae25",
+          "bn": "নারায়ণগঞ্জ",
+          "en": "নারায়ণগঞ্জ"
+        }
+      ],
+      "approxDurationMin": 360,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-dhaka-p-bff17336-p-206bd6fa",
+      "name_bn": "ঢাকা – আশুলিয়া – নালিতাবাড়ী",
+      "name_en": "Dhaka – আশুলিয়া – নালিতাবাড়ী",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "p-bff17336",
+          "bn": "আশুলিয়া",
+          "en": "আশুলিয়া"
+        },
+        {
+          "id": "p-206bd6fa",
+          "bn": "নালিতাবাড়ী",
+          "en": "নালিতাবাড়ী"
+        }
+      ],
+      "approxDurationMin": 360,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-sherpur-p-bff17336",
+      "name_bn": "শেরপুর – আশুলিয়া",
+      "name_en": "Sherpur – আশুলিয়া",
+      "stops": [
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        },
+        {
+          "id": "p-bff17336",
+          "bn": "আশুলিয়া",
+          "en": "আশুলিয়া"
+        }
+      ],
+      "approxDurationMin": 360,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-dhaka-jhenaigati",
+      "name_bn": "ঢাকা – ঝিনাইগাতী",
+      "name_en": "Dhaka – Jhenaigati",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "jhenaigati",
+          "bn": "ঝিনাইগাতী",
+          "en": "Jhenaigati"
+        }
+      ],
+      "approxDurationMin": 330,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-jhenaigati-dhaka-p-7eeaae25-munshiganj",
+      "name_bn": "ঝিনাইগাতী – ঢাকা – নারায়ণগঞ্জ – মুন্সীগঞ্জ",
+      "name_en": "Jhenaigati – Dhaka – নারায়ণগঞ্জ – Munshiganj",
+      "stops": [
+        {
+          "id": "jhenaigati",
+          "bn": "ঝিনাইগাতী",
+          "en": "Jhenaigati"
+        },
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "p-7eeaae25",
+          "bn": "নারায়ণগঞ্জ",
+          "en": "নারায়ণগঞ্জ"
+        },
+        {
+          "id": "munshiganj",
+          "bn": "মুন্সীগঞ্জ",
+          "en": "Munshiganj"
+        }
+      ],
+      "approxDurationMin": 330,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-jhenaigati-p-7eeaae25-munshiganj",
+      "name_bn": "ঝিনাইগাতী – নারায়ণগঞ্জ – মুন্সীগঞ্জ",
+      "name_en": "Jhenaigati – নারায়ণগঞ্জ – Munshiganj",
+      "stops": [
+        {
+          "id": "jhenaigati",
+          "bn": "ঝিনাইগাতী",
+          "en": "Jhenaigati"
+        },
+        {
+          "id": "p-7eeaae25",
+          "bn": "নারায়ণগঞ্জ",
+          "en": "নারায়ণগঞ্জ"
+        },
+        {
+          "id": "munshiganj",
+          "bn": "মুন্সীগঞ্জ",
+          "en": "Munshiganj"
+        }
+      ],
+      "approxDurationMin": 330,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-jhenaigati-p-bff17336",
+      "name_bn": "ঝিনাইগাতী – আশুলিয়া",
+      "name_en": "Jhenaigati – আশুলিয়া",
+      "stops": [
+        {
+          "id": "jhenaigati",
+          "bn": "ঝিনাইগাতী",
+          "en": "Jhenaigati"
+        },
+        {
+          "id": "p-bff17336",
+          "bn": "আশুলিয়া",
+          "en": "আশুলিয়া"
+        }
+      ],
+      "approxDurationMin": 330,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-jhenaigati-p-bff17336-savar",
+      "name_bn": "ঝিনাইগাতী – আশুলিয়া – সাভার",
+      "name_en": "Jhenaigati – আশুলিয়া – Savar",
+      "stops": [
+        {
+          "id": "jhenaigati",
+          "bn": "ঝিনাইগাতী",
+          "en": "Jhenaigati"
+        },
+        {
+          "id": "p-bff17336",
+          "bn": "আশুলিয়া",
+          "en": "আশুলিয়া"
+        },
+        {
+          "id": "savar",
+          "bn": "সাভার",
+          "en": "Savar"
+        }
+      ],
+      "approxDurationMin": 330,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-dhaka-sreebardi",
+      "name_bn": "ঢাকা – শ্রীবরদী",
+      "name_en": "Dhaka – Sreebardi",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "sreebardi",
+          "bn": "শ্রীবরদী",
+          "en": "Sreebardi"
+        }
+      ],
+      "approxDurationMin": 300,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-dhaka-p-ee62b78f",
+      "name_bn": "ঢাকা – ভায়াডাঙ্গা",
+      "name_en": "Dhaka – ভায়াডাঙ্গা",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "p-ee62b78f",
+          "bn": "ভায়াডাঙ্গা",
+          "en": "ভায়াডাঙ্গা"
+        }
+      ],
+      "approxDurationMin": 360,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-bakshiganj-dhaka-sherpur",
+      "name_bn": "বকশীগঞ্জ – ঢাকা – শেরপুর",
+      "name_en": "Bakshiganj – Dhaka – Sherpur",
+      "stops": [
+        {
+          "id": "bakshiganj",
+          "bn": "বকশীগঞ্জ",
+          "en": "Bakshiganj"
+        },
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "sherpur",
+          "bn": "শেরপুর",
+          "en": "Sherpur"
+        }
+      ],
+      "approxDurationMin": 360,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-dhaka-bakshiganj-p-4d3c3923",
+      "name_bn": "ঢাকা – বকশীগঞ্জ – ঝগড়ারচর",
+      "name_en": "Dhaka – Bakshiganj – ঝগড়ারচর",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "bakshiganj",
+          "bn": "বকশীগঞ্জ",
+          "en": "Bakshiganj"
+        },
+        {
+          "id": "p-4d3c3923",
+          "bn": "ঝগড়ারচর",
+          "en": "ঝগড়ারচর"
+        }
+      ],
+      "approxDurationMin": 360,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-dhaka-p-da2c52bc",
+      "name_bn": "ঢাকা – সানন্দবাড়ী",
+      "name_en": "Dhaka – সানন্দবাড়ী",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "p-da2c52bc",
+          "bn": "সানন্দবাড়ী",
+          "en": "সানন্দবাড়ী"
+        }
+      ],
+      "approxDurationMin": 360,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
+    },
+    {
+      "id": "route-dhaka-roumari",
+      "name_bn": "ঢাকা – রৌমারী",
+      "name_en": "Dhaka – Roumari",
+      "stops": [
+        {
+          "id": "dhaka",
+          "bn": "ঢাকা",
+          "en": "Dhaka"
+        },
+        {
+          "id": "roumari",
+          "bn": "রৌমারী",
+          "en": "Roumari"
+        }
+      ],
+      "approxDurationMin": 420,
+      "durationIsEstimate": true,
+      "status": "published",
+      "verification": {
+        "status": "unverified",
+        "lastVerified": null,
+        "source": "spreadsheet Sherpur_Bus_Schedule_Contacts.xlsx (unverified) – duration is a rough estimate"
+      },
+      "updatedAt": "2026-10-24T00:00:00Z"
     }
   ]
 }

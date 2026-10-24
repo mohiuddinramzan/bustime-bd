@@ -4,10 +4,10 @@
     "bn": "বাসটাইম বিডি",
     "en": "BusTime BD"
   },
-  "dataVersion": "0.3.0",
-  "dataUpdated": "2026-10-22",
+  "dataVersion": "0.4.0",
+  "dataUpdated": "2026-10-24",
   "dataMode": "json-bundled",
-  "isDemoData": true,
+  "isDemoData": false,
   "dayStart": "06:00",
   "nightStart": "18:00",
   "staleAfterDays": 90,
@@ -96,6 +96,221 @@
       "gazirkhamar",
       "gajirkhamar",
       "গাজীরখামার"
+    ],
+    "p-7eeaae25": [
+      "p-7eeaae25",
+      "নারায়ণগঞ্জ"
+    ],
+    "tinani": [
+      "tinani",
+      "তিনানী"
+    ],
+    "p-e2c3f4d3": [
+      "p-e2c3f4d3",
+      "কালীবাড়ি"
+    ],
+    "nakla": [
+      "nakla",
+      "নকলা"
+    ],
+    "phulpur": [
+      "phulpur",
+      "ফুলপুর"
+    ],
+    "p-5880c798": [
+      "p-5880c798",
+      "জালকুড়ি"
+    ],
+    "tarab": [
+      "tarab",
+      "তারাব"
+    ],
+    "rangpur": [
+      "rangpur",
+      "রংপুর"
+    ],
+    "p-271eaa7c": [
+      "p-271eaa7c",
+      "রংপুর/সুপারভাইজার"
+    ],
+    "jashore": [
+      "jashore",
+      "যশোর"
+    ],
+    "benapole": [
+      "benapole",
+      "বেনাপোল"
+    ],
+    "sylhet": [
+      "sylhet",
+      "সিলেট"
+    ],
+    "p-78baff79": [
+      "p-78baff79",
+      "সিলেট কদমতলী"
+    ],
+    "rajshahi": [
+      "rajshahi",
+      "রাজশাহী"
+    ],
+    "chapainawabganj": [
+      "chapainawabganj",
+      "চাঁপাইনবাবগঞ্জ"
+    ],
+    "chattogram": [
+      "chattogram",
+      "চট্টগ্রাম"
+    ],
+    "jhenaigati": [
+      "jhenaigati",
+      "ঝিনাইগাতী"
+    ],
+    "p-a9769ade": [
+      "p-a9769ade",
+      "বায়োজিদ"
+    ],
+    "alankar": [
+      "alankar",
+      "অলংকার"
+    ],
+    "tarakanda": [
+      "tarakanda",
+      "তারাকান্দা"
+    ],
+    "feni": [
+      "feni",
+      "ফেনী"
+    ],
+    "cox-s-bazar": [
+      "cox's bazar",
+      "cox-s-bazar",
+      "কক্সবাজার"
+    ],
+    "nonni": [
+      "nonni",
+      "নন্নী"
+    ],
+    "mirpur": [
+      "mirpur",
+      "মিরপুর"
+    ],
+    "p-206bd6fa": [
+      "p-206bd6fa",
+      "নালিতাবাড়ী"
+    ],
+    "mirpur-10": [
+      "mirpur 10",
+      "mirpur-10",
+      "মিরপুর ১০"
+    ],
+    "p-c9ef72fe": [
+      "p-c9ef72fe",
+      "মিরপুর 10"
+    ],
+    "p-cfabd79e": [
+      "p-cfabd79e",
+      "সমশ্চূড়া"
+    ],
+    "p-bff17336": [
+      "p-bff17336",
+      "আশুলিয়া"
+    ],
+    "ashtamitola": [
+      "ashtamitola",
+      "অষ্টমীতলা"
+    ],
+    "baipail": [
+      "baipail",
+      "বাইপাইল"
+    ],
+    "munshiganj": [
+      "munshiganj",
+      "মুন্সীগঞ্জ"
+    ],
+    "khanpur": [
+      "khanpur",
+      "খানপুর"
+    ],
+    "panchabati": [
+      "panchabati",
+      "পঞ্চবটি"
+    ],
+    "siddhirganj": [
+      "siddhirganj",
+      "সিদ্ধিরগঞ্জ"
+    ],
+    "savar": [
+      "savar",
+      "সাভার"
+    ],
+    "p-82f5c588": [
+      "p-82f5c588",
+      "ভারুয়া"
+    ],
+    "bongaon": [
+      "bongaon",
+      "বনগাঁও"
+    ],
+    "p-b9fd41b5": [
+      "p-b9fd41b5",
+      "নিউমার্কেট"
+    ],
+    "p-ee62b78f": [
+      "p-ee62b78f",
+      "ভায়াডাঙ্গা"
+    ],
+    "bottola": [
+      "bottola",
+      "বটতলা"
+    ],
+    "p-4d3c3923": [
+      "p-4d3c3923",
+      "ঝগড়ারচর"
+    ],
+    "p-da2c52bc": [
+      "p-da2c52bc",
+      "সানন্দবাড়ী"
+    ],
+    "roumari": [
+      "roumari",
+      "রৌমারী"
+    ],
+    "uttara": [
+      "uttara",
+      "উত্তরা"
+    ],
+    "p-4e46d31": [
+      "p-4e46d31",
+      "গাড়ি"
+    ],
+    "hossain-market": [
+      "hossain market",
+      "hossain-market",
+      "হোসেন মার্কেট"
+    ],
+    "signboard": [
+      "signboard",
+      "সাইনবোর্ড"
+    ],
+    "kartimari": [
+      "kartimari",
+      "কর্ত্তিমারী"
+    ],
+    "p-61f0af8a": [
+      "p-61f0af8a",
+      "সায়দাবাদ"
+    ],
+    "rajibpur": [
+      "rajibpur",
+      "রাজিবপুর"
+    ],
+    "ramrampur": [
+      "ramrampur",
+      "রামরামপুর"
+    ],
+    "kamalpur": [
+      "kamalpur",
+      "কামালপুর"
     ]
   }
 }
