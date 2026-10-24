@@ -3,6 +3,7 @@ name: Android Debug APK
 on:
   push:
     branches: [main]
+    tags: ['v*']
   workflow_dispatch:
 
 permissions:
@@ -73,3 +74,32 @@ jobs:
             app/build/reports/
             app/build/test-results/
           if-no-files-found: ignore
+
+  # Runs only when a version tag (v1.0.0 ...) is pushed: attaches the APK to a GitHub Release.
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - name: Download APK built above
+        uses: actions/download-artifact@v4
+        with:
+          name: bustime-bd-debug-apk
+          path: apk
+
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          cp apk/*.apk BusTime-BD.apk
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" BusTime-BD.apk --clobber
+          else
+            gh release create "$TAG" BusTime-BD.apk \
+              --title "BusTime BD $TAG" \
+              --notes "BusTime BD $TAG. Debug-signed APK: Android may ask you to allow installs from this source."
+          fi
